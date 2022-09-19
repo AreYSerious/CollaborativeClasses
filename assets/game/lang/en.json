@@ -119,6 +119,7 @@
     "charattribute-hungerrate-0.1": "+10% hunger rate",
     "charattribute-hungerrate--0.1": "-10% hunger rate",
     "charattribute-hungerrate--0.2": "-20% hunger rate",
+    "charattribute-forageDropRate-0.2": "+20% forage drop rate",
     "charattribute-forageDropRate-0.6": "+60% forage drop rate",
     "charattribute-forageDropRate-0.8": "+80% forage drop rate",
     "charattribute-forageDropRate--0.1": "-10% forage drop rate",
