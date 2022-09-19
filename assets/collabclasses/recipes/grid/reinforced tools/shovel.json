@@ -1,0 +1,26 @@
+[
+{
+	ingredientPattern: "TK,S_",
+	requiresTrait: "grimy",
+	ingredients: {
+		"T": { type: "item", code: "game:shovelhead-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver"] },
+		"S": { type: "item", code: "game:stick" },
+		"K": { type: "item", code: "copperreinforcingkit" }
+	},
+	width: 2,
+	height: 2,
+	output: { type: "item", code: "shovel-{metal}", quantity: 1  }
+},
+{
+	ingredientPattern: "TK,S_",
+	requiresTrait: "grimy",
+	ingredients: {
+		"T": { type: "item", code: "game:shovelhead-*", name: "metal", allowedVariants: ["iron", "meteoriciron", "steel"] },
+		"S": { type: "item", code: "game:stick" },
+		"K": { type: "item", code: "ironreinforcingkit" }
+	},
+	width: 2,
+	height: 2,
+	output: { type: "item", code: "shovel-{metal}", quantity: 1  }
+}
+]

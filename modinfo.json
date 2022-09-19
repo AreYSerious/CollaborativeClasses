@@ -1,0 +1,10 @@
+{
+  "type": "content",
+  "modid": "collabclassesrv",
+  "name": "Collaborative Classes",
+  "description" : "Adds more collaborative classes and some items.",
+  "authors": ["Captain Oats", "NiclAss"],
+  "version": "3.0.5",
+  "RequiredOnClient": true,
+  "RequiredOnServer": true
+}

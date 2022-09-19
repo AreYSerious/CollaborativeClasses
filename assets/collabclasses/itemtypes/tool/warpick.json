@@ -1,0 +1,138 @@
+{
+	code: "warpick",
+	storageFlags: 5,
+	attributes: {
+		handbook: {
+			groupBy: ["warpick-*"]
+		},
+		toolrackTransform: {
+			translation: { x: 0.3, y: 0.12, z: -0.2 },
+			rotation: { x: 90, y: 0, z: -90 },
+			scale: 2.5
+		}
+	},
+	variantgroups: [
+		{ code: "metal", states: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel" ] },
+	],
+	tool: "pickaxe",
+	damagedby: ["blockbreaking", "attacking"],
+	shape: { base: "item/tool/warpick" },
+	heldTpHitAnimation: "smithing",
+	textures: {
+		"metal": { base: "game:block/metal/ingot/{metal}" }
+	},
+	attackRange: 2.5,
+	tooltierbytype: {
+		"*-copper": 2,
+		"*-gold": 2,
+		"*-silver": 2,
+		"*-bismuthbronze": 3,
+		"*-tinbronze": 3,
+		"*-blackbronze": 3,
+		"*-iron": 4,
+		"*-meteoriciron": 4,
+		"*-steel": 5,
+	},
+	miningspeedbytype: {
+		"warpick-copper": {
+			"stone": 4,
+			"ore": 4,
+			"metal": 4,
+			"ice": 1.75
+		},
+		"warpick-bismuthbronze": {
+			"stone": 5.5,
+			"ore": 5.5,
+			"metal": 5.5,
+			"ice": 2.2
+		},
+		"warpick-tinbronze": {
+			"stone": 6,
+			"ore": 6,
+			"metal": 6,
+			"ice": 2.3
+		},
+		"warpick-gold": {
+			"stone": 5,
+			"ore": 5,
+			"metal": 5,
+			"ice": 2
+		},
+		"warpick-silver": {
+			"stone": 5,
+			"ore": 5,
+			"metal": 5,
+			"ice": 2
+		},
+		"warpick-blackbronze": {
+			"stone": 6.5,
+			"ore": 6.5,
+			"metal": 6.5,
+			"ice": 2.8
+		},
+		"warpick-iron": {
+			"stone": 7.5,
+			"ore": 7.5,
+			"metal": 7.5,
+			"ice": 3.5
+		},
+		"warpick-meteoriciron": {
+			"stone": 8,
+			"ore": 8,
+			"metal": 8,
+			"ice": 3.75
+		},
+		"warpick-steel": {
+			"stone": 9,
+			"ore": 9,
+			"metal": 9,
+			"ice": 4.25
+		},
+	},
+	attackpowerbytype: {
+		"warpick-copper": 3,
+		"warpick-gold": 3.25,
+		"warpick-silver": 3.25,
+		"warpick-bismuthbronze": 3.25,
+		"warpick-tinbronze": 3.5,
+		"warpick-blackbronze": 3.75,
+		"warpick-iron": 4,
+		"warpick-meteoriciron": 4.25,
+		"warpick-steel": 4.25
+	},
+	durabilitybytype: {
+		"warpick-gold": 300,
+		"warpick-silver": 350,
+		"warpick-copper": 600,
+		"warpick-tinbronze": 900,
+		"warpick-bismuthbronze": 1000,
+		"warpick-blackbronze": 1100,
+		"warpick-iron": 2000,
+		"warpick-meteoriciron": 2600,
+		"warpick-steel": 5000,
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"] },
+	guiTransform: {
+		translation: { x: 8, y: 11, z: 0 },
+		rotation: { x: -180, y: 180, z: 33 },
+		origin: { x: 0.2899, y: 0.3, z: 1.24 },
+		scale: 2.49
+	},
+	fpHandTransform: {
+		translation: { x: 0.2, y: 0.3, z: 0.1 },
+		rotation: { x: 25, y: -68, z: 28 },
+		scale: 4
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -90, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 4.53
+	},
+	tpHandTransform: {
+		translation: { x: -0.37, y: -0.01, z: -0.46 },
+		rotation: { x: 12, y: -180, z: 70 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 1.2
+	}
+}

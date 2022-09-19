@@ -1,0 +1,47 @@
+{
+   "code":"temporalgearbits",
+   "shape":{
+      "base":"item/temporalgearbits"
+   },
+   "creativeinventory":{
+      "general":[
+         "*"
+      ],
+      "items":[
+         "*"
+      ]
+   },
+   "behaviors": [{ name: "GroundStorable", properties: { layout: "Quadrants"}}],
+   "maxstacksize":999,
+	guiTransform: {
+		translation: { x: -6, y: 14.5, z: 0 },
+		rotation: { x: 120, y: 0, z: -1 },
+		origin: { x: 0.45, y: 0, z: 0.5 },
+		scale: 6
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: 0.8, z: 0 },
+		rotation: { x: 70, y: -80, z: 50 },
+		origin: { x: 0.2, y: 0, z: 0.6 },
+		scale: 3.21
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0.7, z: 0 },
+		rotation: { x: 0, y: 0, z: 1 },
+		scale: 6
+	},
+	tpHandTransform: {
+		translation: { x: -0.85, y: -0.09, z: -0.07 },
+		rotation: { x: -17, y: -132, z: 8 },
+		origin: { x: 0, y: 0, z: 0 },
+		scale: 1.8
+	},
+	attributes: {
+	groundStorageTransform : {
+     		translation: { x: -0.2, y: 0, z: -0.3 },
+      		rotation: { x: 0, y: 0, z: 0 },
+      		origin: { x: 0, y: 0, z: 0 },
+     		scale: 1.45
+	}
+   	}
+}

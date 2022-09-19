@@ -1,0 +1,57 @@
+[
+	{
+		ingredientPattern: "C	I",
+		recipeGroup: 1,
+		ingredients: {
+			"C": { type: "item", code: "chisel-*", isTool: true},
+			"I": { type: "item", code: "game:ingot-*",  name: "metal" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 20 }
+	},
+	{
+		ingredientPattern: "C	I",
+		recipeGroup: 2,
+		ingredients: {
+			"C": { type: "item", code: "chisel-*", isTool: true},
+			"I": { type: "item", code: "game:metalplate-*",  name: "metal" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 40 }
+	},
+	{
+		ingredientPattern: "C	I",
+		recipeGroup: 3,
+		ingredients: {
+			"C": { type: "item", code: "chisel-*", isTool: true},
+			"I": { type: "item", code: "game:metallamellae-*",  name: "metal" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 20 }
+	},
+	{
+		ingredientPattern: "C	I",
+		recipeGroup: 4,
+		ingredients: {
+			"C": { type: "item", code: "chisel-*", isTool: true},
+			"I": { type: "item", code: "game:metalchain-*",  name: "metal" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 40 }
+	},
+	{
+		ingredientPattern: "C	I",
+		recipeGroup: 5,
+		ingredients: {
+			"C": { type: "item", code: "chisel-*", isTool: true},
+			"I": { type: "item", code: "game:metalscale-*",  name: "metal" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 20 }
+	}
+]

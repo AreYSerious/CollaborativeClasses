@@ -1,0 +1,24 @@
+[
+{
+	ingredientPattern: "TK",
+	requiresTrait: "stonemason",
+	ingredients: {
+		"T": { type: "item", code: "game:chisel-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver"] },
+		"K": { type: "item", code: "copperreinforcingkit" }
+	},
+	width: 2,
+	height: 1,
+	output: { type: "item", code: "chisel-{metal}", quantity: 1  }
+},
+{
+	ingredientPattern: "TK",
+	requiresTrait: "stonemason",
+	ingredients: {
+		"T": { type: "item", code: "game:chisel-*", name: "metal", allowedVariants: ["iron", "meteoriciron", "steel"] },
+		"K": { type: "item", code: "ironreinforcingkit" }
+	},
+	width: 2,
+	height: 1,
+	output: { type: "item", code: "chisel-{metal}", quantity: 1  }
+}
+]

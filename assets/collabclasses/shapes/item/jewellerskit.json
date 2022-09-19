@@ -1,0 +1,582 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"wood-generic": "game:block/wood-generic",
+		"iron": "game:item/tool/material/copper"
+	},
+	"elements": [
+		{
+			"name": "Rightangle1",
+			"from": [ 7.3, -2.0, 8.3 ], 
+			"to": [ 7.7, 0.0, 8.5 ], 
+			"rotationOrigin": [ 7.0, -0.2, 8.2 ],
+			"rotationX": -6.0,
+			"rotationY": 22.0,
+			"rotationZ": 94.0,
+			"faces": {
+				"north": { "texture": "#wood-generic", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+				"east": { "texture": "#wood-generic", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+				"south": { "texture": "#wood-generic", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+				"west": { "texture": "#wood-generic", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+				"up": { "texture": "#wood-generic", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#wood-generic", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+			},
+			"children": [
+				{
+					"name": "Rightangle2",
+					"from": [ 0.0, 2.0, 0.0 ], 
+					"to": [ 2.0, 2.4, 0.2 ], 
+					"rotationOrigin": [ 0.0, 2.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#wood-generic", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+						"east": { "texture": "#wood-generic", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"south": { "texture": "#wood-generic", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+						"west": { "texture": "#wood-generic", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"up": { "texture": "#wood-generic", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+						"down": { "texture": "#wood-generic", "uv": [ 0.0, 0.0, 2.0, 0.5 ] }
+					}
+				},
+				{
+					"name": "Rightanglebolt",
+					"from": [ 0.075, 2.05, -0.1 ], 
+					"to": [ 0.325, 2.3, 0.3 ], 
+					"rotationOrigin": [ 0.0, 2.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#iron", "uv": [ 0.0, 0.5, 0.25, 1.0 ] },
+						"east": { "texture": "#iron", "uv": [ 0.25, 0.5, 0.5, 1.0 ] },
+						"south": { "texture": "#iron", "uv": [ 0.5, 0.5, 0.75, 1.0 ] },
+						"west": { "texture": "#iron", "uv": [ 0.75, 0.5, 1.0, 1.0 ] },
+						"up": { "texture": "#iron", "uv": [ 0.0, 0.0, 0.25, 0.5 ] },
+						"down": { "texture": "#iron", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+					}
+				},
+				{
+					"name": "JewelersSawHandle",
+					"from": [ -0.2768, -1.2433, 0.3045 ], 
+					"to": [ 0.1232, 0.3567, 0.7045 ], 
+					"rotationOrigin": [ -0.2768, -1.2433, 0.3045 ],
+					"rotationX": -64.04180716648239,
+					"rotationY": 9.53682832397051,
+					"rotationZ": -100.38684361942055,
+					"faces": {
+						"north": { "texture": "#wood-generic", "uv": [ 0.0, 0.5, 0.5, 2.0 ] },
+						"east": { "texture": "#wood-generic", "uv": [ 0.5, 0.5, 1.0, 2.0 ] },
+						"south": { "texture": "#wood-generic", "uv": [ 1.0, 0.5, 1.5, 2.0 ] },
+						"west": { "texture": "#wood-generic", "uv": [ 1.5, 0.5, 2.0, 2.0 ] },
+						"up": { "texture": "#wood-generic", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"down": { "texture": "#wood-generic", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+					},
+					"children": [
+						{
+							"name": "JewelersSaw1",
+							"from": [ 0.1, 1.5, 0.1 ], 
+							"to": [ 0.3, 1.9, 0.3 ], 
+							"rotationOrigin": [ 0.0, 1.5, 0.0 ],
+							"faces": {
+								"north": { "texture": "#iron", "uv": [ 5.25, 3.5, 2.75, 7.0 ], "autoUv": false },
+								"east": { "texture": "#iron", "uv": [ 0.0, 0.5, 0.25, 1.0 ] },
+								"south": { "texture": "#iron", "uv": [ 5.25, 4.5, 2.75, 7.0 ], "autoUv": false },
+								"west": { "texture": "#iron", "uv": [ 0.25, 0.5, 0.5, 1.0 ] },
+								"up": { "texture": "#iron", "uv": [ 0.0, 0.0, 0.25, 0.5 ] },
+								"down": { "texture": "#iron", "uv": [ 0.25, 0.0, 0.5, 0.5 ] }
+							}
+						},
+						{
+							"name": "JewelersSaw2",
+							"from": [ 0.05, 1.9, 0.05 ], 
+							"to": [ 0.35, 2.3, 0.35 ], 
+							"rotationOrigin": [ 0.0, 0.9, 0.0 ],
+							"faces": {
+								"north": { "texture": "#iron", "uv": [ 5.25, 3.5, 2.75, 7.0 ], "autoUv": false },
+								"east": { "texture": "#iron", "uv": [ 0.0, 0.5, 0.25, 1.0 ] },
+								"south": { "texture": "#iron", "uv": [ 5.25, 4.5, 2.75, 7.0 ], "autoUv": false },
+								"west": { "texture": "#iron", "uv": [ 0.25, 0.5, 0.5, 1.0 ] },
+								"up": { "texture": "#iron", "uv": [ 0.0, 0.0, 0.25, 0.5 ] },
+								"down": { "texture": "#iron", "uv": [ 0.25, 0.0, 0.5, 0.5 ] }
+							}
+						},
+						{
+							"name": "JewelersSaw3",
+							"from": [ 0.3, 2.1, 0.1 ], 
+							"to": [ 1.1, 2.2, 0.3 ], 
+							"rotationOrigin": [ 0.3, 0.1, 0.1 ],
+							"faces": {
+								"north": { "texture": "#iron", "uv": [ 5.25, 3.5, 2.75, 7.0 ], "autoUv": false },
+								"east": { "texture": "#iron", "uv": [ 6.0, 5.0, 8.25, 7.5 ], "autoUv": false },
+								"south": { "texture": "#iron", "uv": [ 5.25, 4.5, 2.75, 7.0 ], "autoUv": false },
+								"west": { "texture": "#iron", "uv": [ 5.0, 4.5, 7.25, 7.0 ], "autoUv": false },
+								"up": { "texture": "#iron", "uv": [ 3.0, 2.0, 5.25, 4.5 ], "autoUv": false },
+								"down": { "texture": "#iron", "uv": [ 3.75, 4.0, 6.0, 6.5 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "JewelersSaw4",
+							"from": [ 1.0, 2.2, 0.1 ], 
+							"to": [ 1.1, 3.6, 0.3 ], 
+							"rotationOrigin": [ 1.0, 0.2, 0.1 ],
+							"faces": {
+								"north": { "texture": "#iron", "uv": [ 5.25, 3.5, 2.75, 7.0 ], "autoUv": false },
+								"east": { "texture": "#iron", "uv": [ 6.0, 5.0, 8.25, 7.5 ], "autoUv": false },
+								"south": { "texture": "#iron", "uv": [ 5.25, 4.5, 2.75, 7.0 ], "autoUv": false },
+								"west": { "texture": "#iron", "uv": [ 5.0, 4.5, 7.25, 7.0 ], "autoUv": false },
+								"up": { "texture": "#iron", "uv": [ 3.0, 2.0, 5.25, 4.5 ], "autoUv": false },
+								"down": { "texture": "#iron", "uv": [ 3.75, 4.0, 6.0, 6.5 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "JewelersSaw5",
+							"from": [ 0.3, 3.6, 0.1 ], 
+							"to": [ 1.1, 3.7, 0.3 ], 
+							"rotationOrigin": [ 0.3, 1.6, 0.1 ],
+							"faces": {
+								"north": { "texture": "#iron", "uv": [ 5.25, 3.5, 2.75, 7.0 ], "autoUv": false },
+								"east": { "texture": "#iron", "uv": [ 6.0, 5.0, 8.25, 7.5 ], "autoUv": false },
+								"south": { "texture": "#iron", "uv": [ 5.25, 4.5, 2.75, 7.0 ], "autoUv": false },
+								"west": { "texture": "#iron", "uv": [ 5.0, 4.5, 7.25, 7.0 ], "autoUv": false },
+								"up": { "texture": "#iron", "uv": [ 3.0, 2.0, 5.25, 4.5 ], "autoUv": false },
+								"down": { "texture": "#iron", "uv": [ 3.75, 4.0, 6.0, 6.5 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "JewelersSaw6",
+							"from": [ 0.05, 3.5, 0.05 ], 
+							"to": [ 0.35, 3.9, 0.35 ], 
+							"rotationOrigin": [ 0.0, 2.5, 0.0 ],
+							"faces": {
+								"north": { "texture": "#iron", "uv": [ 5.25, 3.5, 2.75, 7.0 ], "autoUv": false },
+								"east": { "texture": "#iron", "uv": [ 0.0, 0.5, 0.25, 1.0 ] },
+								"south": { "texture": "#iron", "uv": [ 5.25, 4.5, 2.75, 7.0 ], "autoUv": false },
+								"west": { "texture": "#iron", "uv": [ 0.25, 0.5, 0.5, 1.0 ] },
+								"up": { "texture": "#iron", "uv": [ 0.0, 0.0, 0.25, 0.5 ] },
+								"down": { "texture": "#iron", "uv": [ 0.25, 0.0, 0.5, 0.5 ] }
+							}
+						},
+						{
+							"name": "JewelersSaw7",
+							"from": [ 0.15, 2.2, 0.15 ], 
+							"to": [ 0.3, 3.6, 0.2 ], 
+							"rotationOrigin": [ 0.2, 0.2, 0.2 ],
+							"faces": {
+								"north": { "texture": "#iron", "uv": [ 5.25, 3.5, 2.75, 7.0 ], "autoUv": false },
+								"east": { "texture": "#iron", "uv": [ 6.0, 5.0, 8.25, 7.5 ], "autoUv": false },
+								"south": { "texture": "#iron", "uv": [ 5.25, 4.5, 2.75, 7.0 ], "autoUv": false },
+								"west": { "texture": "#iron", "uv": [ 5.0, 4.5, 7.25, 7.0 ], "autoUv": false },
+								"up": { "texture": "#iron", "uv": [ 3.0, 2.0, 5.25, 4.5 ], "autoUv": false },
+								"down": { "texture": "#iron", "uv": [ 3.75, 4.0, 6.0, 6.5 ], "autoUv": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "ThinHammerhandle",
+					"from": [ -0.4381, -0.8279, 0.054 ], 
+					"to": [ -0.0381, 1.4721, 0.454 ], 
+					"rotationOrigin": [ 0.0618, -0.8279, 0.054 ],
+					"rotationX": -27.367011609455286,
+					"rotationY": 12.801417664963475,
+					"rotationZ": -92.45352760047918,
+					"faces": {
+						"north": { "texture": "#wood-generic", "uv": [ 5.0, 10.0, 7.5, 14.0 ], "autoUv": false },
+						"east": { "texture": "#wood-generic", "uv": [ 6.5, 9.5, 9.0, 13.5 ], "autoUv": false },
+						"south": { "texture": "#wood-generic", "uv": [ 9.0, 4.0, 11.5, 8.0 ], "autoUv": false },
+						"west": { "texture": "#wood-generic", "uv": [ 8.5, 6.0, 11.0, 10.0 ], "autoUv": false },
+						"up": { "texture": "#wood-generic", "uv": [ 3.5, 5.0, 4.0, 5.5 ], "autoUv": false },
+						"down": { "texture": "#wood-generic", "uv": [ 4.0, 5.0, 4.5, 5.5 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "ThinHammerhead1",
+							"from": [ -0.4, 1.7, -0.05 ], 
+							"to": [ 0.6, 2.1, 0.45 ], 
+							"rotationOrigin": [ 0.0, 1.5, 0.1 ],
+							"faces": {
+								"north": { "texture": "#iron", "uv": [ 10.0, 10.0, 12.0, 12.0 ], "autoUv": false },
+								"east": { "texture": "#iron", "uv": [ 10.0, 10.0, 12.0, 12.0 ], "autoUv": false },
+								"south": { "texture": "#iron", "uv": [ 9.0, 9.0, 11.0, 7.0 ], "autoUv": false },
+								"west": { "texture": "#iron", "uv": [ 11.25, 6.0, 11.75, 6.5 ] },
+								"up": { "texture": "#iron", "uv": [ 10.0, 10.0, 12.0, 12.0 ], "autoUv": false },
+								"down": { "texture": "#iron", "uv": [ 10.0, 10.0, 12.0, 12.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "ThinHammerhead2",
+							"from": [ 0.6, 1.65, -0.1 ], 
+							"to": [ 0.8, 2.15, 0.5 ], 
+							"rotationOrigin": [ 1.0, 1.4, 0.1 ],
+							"faces": {
+								"north": { "texture": "#iron", "uv": [ 10.0, 10.0, 12.0, 12.0 ], "autoUv": false },
+								"east": { "texture": "#iron", "uv": [ 10.0, 10.0, 12.0, 12.0 ], "autoUv": false },
+								"south": { "texture": "#iron", "uv": [ 9.0, 9.0, 11.0, 7.0 ], "autoUv": false },
+								"west": { "texture": "#iron", "uv": [ 11.25, 6.0, 11.75, 6.5 ] },
+								"up": { "texture": "#iron", "uv": [ 10.0, 10.0, 12.0, 12.0 ], "autoUv": false },
+								"down": { "texture": "#iron", "uv": [ 10.0, 10.0, 12.0, 12.0 ], "autoUv": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "JewelersGriphandle",
+					"from": [ -1.5906, 3.6527, -0.7803 ], 
+					"to": [ -1.3406, 4.8527, -0.5303 ], 
+					"rotationOrigin": [ -1.5906, 1.6527, -0.7803 ],
+					"rotationX": 16.843575781929584,
+					"rotationY": -3.4969994885185187,
+					"rotationZ": -91.9422950681747,
+					"faces": {
+						"north": { "texture": "#iron", "uv": [ 5.25, 3.5, 2.75, 7.0 ], "autoUv": false },
+						"east": { "texture": "#iron", "uv": [ 6.0, 5.0, 8.25, 7.5 ], "autoUv": false },
+						"south": { "texture": "#iron", "uv": [ 5.25, 4.5, 2.75, 7.0 ], "autoUv": false },
+						"west": { "texture": "#iron", "uv": [ 5.0, 4.5, 7.25, 7.0 ], "autoUv": false },
+						"up": { "texture": "#iron", "uv": [ 3.0, 2.0, 5.25, 4.5 ], "autoUv": false },
+						"down": { "texture": "#iron", "uv": [ 3.75, 4.0, 6.0, 6.5 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "JewelersGrip5",
+							"from": [ 0.2, 1.2, 0.075 ], 
+							"to": [ 0.3, 1.4, 0.175 ], 
+							"rotationOrigin": [ 0.2, -0.8, 0.1 ],
+							"faces": {
+								"north": { "texture": "#iron", "uv": [ 5.25, 3.5, 2.75, 7.0 ], "autoUv": false },
+								"east": { "texture": "#iron", "uv": [ 6.0, 5.0, 8.25, 7.5 ], "autoUv": false },
+								"south": { "texture": "#iron", "uv": [ 5.25, 4.5, 2.75, 7.0 ], "autoUv": false },
+								"west": { "texture": "#iron", "uv": [ 5.0, 4.5, 7.25, 7.0 ], "autoUv": false },
+								"up": { "texture": "#iron", "uv": [ 3.0, 2.0, 5.25, 4.5 ], "autoUv": false },
+								"down": { "texture": "#iron", "uv": [ 3.75, 4.0, 6.0, 6.5 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "JewelersGrip4",
+							"from": [ -0.05, 1.2, 0.075 ], 
+							"to": [ 0.05, 1.4, 0.175 ], 
+							"rotationOrigin": [ -0.1, -0.8, 0.1 ],
+							"faces": {
+								"north": { "texture": "#iron", "uv": [ 5.25, 3.5, 2.75, 7.0 ], "autoUv": false },
+								"east": { "texture": "#iron", "uv": [ 6.0, 5.0, 8.25, 7.5 ], "autoUv": false },
+								"south": { "texture": "#iron", "uv": [ 5.25, 4.5, 2.75, 7.0 ], "autoUv": false },
+								"west": { "texture": "#iron", "uv": [ 5.0, 4.5, 7.25, 7.0 ], "autoUv": false },
+								"up": { "texture": "#iron", "uv": [ 3.0, 2.0, 5.25, 4.5 ], "autoUv": false },
+								"down": { "texture": "#iron", "uv": [ 3.75, 4.0, 6.0, 6.5 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "JewelersGrip3",
+							"from": [ 0.075, 1.2, 0.2 ], 
+							"to": [ 0.175, 1.4, 0.3 ], 
+							"rotationOrigin": [ 0.1, -0.8, 0.3 ],
+							"faces": {
+								"north": { "texture": "#iron", "uv": [ 5.25, 3.5, 2.75, 7.0 ], "autoUv": false },
+								"east": { "texture": "#iron", "uv": [ 6.0, 5.0, 8.25, 7.5 ], "autoUv": false },
+								"south": { "texture": "#iron", "uv": [ 5.25, 4.5, 2.75, 7.0 ], "autoUv": false },
+								"west": { "texture": "#iron", "uv": [ 5.0, 4.5, 7.25, 7.0 ], "autoUv": false },
+								"up": { "texture": "#iron", "uv": [ 3.0, 2.0, 5.25, 4.5 ], "autoUv": false },
+								"down": { "texture": "#iron", "uv": [ 3.75, 4.0, 6.0, 6.5 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "JewelersGrip2",
+							"from": [ 0.075, 1.2, -0.05 ], 
+							"to": [ 0.175, 1.4, 0.05 ], 
+							"rotationOrigin": [ 0.1, -0.8, 0.1 ],
+							"faces": {
+								"north": { "texture": "#iron", "uv": [ 5.25, 3.5, 2.75, 7.0 ], "autoUv": false },
+								"east": { "texture": "#iron", "uv": [ 6.0, 5.0, 8.25, 7.5 ], "autoUv": false },
+								"south": { "texture": "#iron", "uv": [ 5.25, 4.5, 2.75, 7.0 ], "autoUv": false },
+								"west": { "texture": "#iron", "uv": [ 5.0, 4.5, 7.25, 7.0 ], "autoUv": false },
+								"up": { "texture": "#iron", "uv": [ 3.0, 2.0, 5.25, 4.5 ], "autoUv": false },
+								"down": { "texture": "#iron", "uv": [ 3.75, 4.0, 6.0, 6.5 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "JewelersGrip1",
+							"from": [ -0.13, -0.2, -0.13 ], 
+							"to": [ 0.37, 0.1, 0.37 ], 
+							"rotationOrigin": [ -0.1, -2.3, 0.0 ],
+							"faces": {
+								"north": { "texture": "#iron", "uv": [ 5.25, 3.5, 2.75, 7.0 ], "autoUv": false },
+								"east": { "texture": "#iron", "uv": [ 6.0, 5.0, 8.25, 7.5 ], "autoUv": false },
+								"south": { "texture": "#iron", "uv": [ 5.25, 4.5, 2.75, 7.0 ], "autoUv": false },
+								"west": { "texture": "#iron", "uv": [ 5.0, 4.5, 7.25, 7.0 ], "autoUv": false },
+								"up": { "texture": "#iron", "uv": [ 3.0, 2.0, 5.25, 4.5 ], "autoUv": false },
+								"down": { "texture": "#iron", "uv": [ 3.75, 4.0, 6.0, 6.5 ], "autoUv": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "JewelersMoldR",
+					"from": [ -2.1868, 3.1553, 0.0242 ], 
+					"to": [ -1.1868, 3.2553, 0.6242 ], 
+					"rotationOrigin": [ -2.1868, 1.1553, 0.0242 ],
+					"rotationX": -3.2921513989814697,
+					"rotationY": -5.455776252402315,
+					"rotationZ": -92.05323107683066,
+					"faces": {
+						"north": { "texture": "#iron", "uv": [ 5.25, 3.5, 2.75, 7.0 ], "autoUv": false },
+						"east": { "texture": "#iron", "uv": [ 6.0, 5.0, 8.25, 7.5 ], "autoUv": false },
+						"south": { "texture": "#iron", "uv": [ 5.25, 4.5, 2.75, 7.0 ], "autoUv": false },
+						"west": { "texture": "#iron", "uv": [ 5.0, 4.5, 7.25, 7.0 ], "autoUv": false },
+						"up": { "texture": "#iron", "uv": [ 3.0, 2.0, 5.25, 4.5 ], "autoUv": false },
+						"down": { "texture": "#iron", "uv": [ 3.75, 4.0, 6.0, 6.5 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "JewelersMoldR1",
+							"from": [ 0.0, 0.1, 0.0 ], 
+							"to": [ 1.0, 0.3, 0.2 ], 
+							"rotationOrigin": [ 0.0, -1.9, 0.0 ],
+							"faces": {
+								"north": { "texture": "#iron", "uv": [ 5.25, 3.5, 2.75, 7.0 ], "autoUv": false },
+								"east": { "texture": "#iron", "uv": [ 6.0, 5.0, 8.25, 7.5 ], "autoUv": false },
+								"south": { "texture": "#iron", "uv": [ 5.25, 4.5, 2.75, 7.0 ], "autoUv": false },
+								"west": { "texture": "#iron", "uv": [ 5.0, 4.5, 7.25, 7.0 ], "autoUv": false },
+								"up": { "texture": "#iron", "uv": [ 3.0, 2.0, 5.25, 4.5 ], "autoUv": false },
+								"down": { "texture": "#iron", "uv": [ 3.75, 4.0, 6.0, 6.5 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "JewelersMoldR2",
+							"from": [ 0.0, 0.1, 0.4 ], 
+							"to": [ 1.0, 0.3, 0.6 ], 
+							"rotationOrigin": [ 0.0, -1.9, 0.4 ],
+							"faces": {
+								"north": { "texture": "#iron", "uv": [ 5.25, 3.5, 2.75, 7.0 ], "autoUv": false },
+								"east": { "texture": "#iron", "uv": [ 6.0, 5.0, 8.25, 7.5 ], "autoUv": false },
+								"south": { "texture": "#iron", "uv": [ 5.25, 4.5, 2.75, 7.0 ], "autoUv": false },
+								"west": { "texture": "#iron", "uv": [ 5.0, 4.5, 7.25, 7.0 ], "autoUv": false },
+								"up": { "texture": "#iron", "uv": [ 3.0, 2.0, 5.25, 4.5 ], "autoUv": false },
+								"down": { "texture": "#iron", "uv": [ 3.75, 4.0, 6.0, 6.5 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "JewelersMoldR3",
+							"from": [ 0.0, 0.1, 0.2 ], 
+							"to": [ 0.2, 0.3, 0.4 ], 
+							"rotationOrigin": [ 0.0, -1.9, 0.2 ],
+							"faces": {
+								"north": { "texture": "#iron", "uv": [ 5.25, 3.5, 2.75, 7.0 ], "autoUv": false },
+								"east": { "texture": "#iron", "uv": [ 6.0, 5.0, 8.25, 7.5 ], "autoUv": false },
+								"south": { "texture": "#iron", "uv": [ 5.25, 4.5, 2.75, 7.0 ], "autoUv": false },
+								"west": { "texture": "#iron", "uv": [ 5.0, 4.5, 7.25, 7.0 ], "autoUv": false },
+								"up": { "texture": "#iron", "uv": [ 3.0, 2.0, 5.25, 4.5 ], "autoUv": false },
+								"down": { "texture": "#iron", "uv": [ 3.75, 4.0, 6.0, 6.5 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "JewelersMoldR4",
+							"from": [ 0.8, 0.1, 0.2 ], 
+							"to": [ 1.0, 0.3, 0.4 ], 
+							"rotationOrigin": [ 0.8, -1.9, 0.2 ],
+							"faces": {
+								"north": { "texture": "#iron", "uv": [ 5.25, 3.5, 2.75, 7.0 ], "autoUv": false },
+								"east": { "texture": "#iron", "uv": [ 6.0, 5.0, 8.25, 7.5 ], "autoUv": false },
+								"south": { "texture": "#iron", "uv": [ 5.25, 4.5, 2.75, 7.0 ], "autoUv": false },
+								"west": { "texture": "#iron", "uv": [ 5.0, 4.5, 7.25, 7.0 ], "autoUv": false },
+								"up": { "texture": "#iron", "uv": [ 3.0, 2.0, 5.25, 4.5 ], "autoUv": false },
+								"down": { "texture": "#iron", "uv": [ 3.75, 4.0, 6.0, 6.5 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "JewelersMoldR5",
+							"from": [ 0.4, 0.1, 0.2 ], 
+							"to": [ 0.6, 0.3, 0.4 ], 
+							"rotationOrigin": [ 0.4, -1.9, 0.2 ],
+							"faces": {
+								"north": { "texture": "#iron", "uv": [ 5.25, 3.5, 2.75, 7.0 ], "autoUv": false },
+								"east": { "texture": "#iron", "uv": [ 6.0, 5.0, 8.25, 7.5 ], "autoUv": false },
+								"south": { "texture": "#iron", "uv": [ 5.25, 4.5, 2.75, 7.0 ], "autoUv": false },
+								"west": { "texture": "#iron", "uv": [ 5.0, 4.5, 7.25, 7.0 ], "autoUv": false },
+								"up": { "texture": "#iron", "uv": [ 3.0, 2.0, 5.25, 4.5 ], "autoUv": false },
+								"down": { "texture": "#iron", "uv": [ 3.75, 4.0, 6.0, 6.5 ], "autoUv": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "JewelersMoldL",
+					"from": [ -2.263, 1.915, 0.419 ], 
+					"to": [ -1.263, 2.015, 1.019 ], 
+					"rotationOrigin": [ -2.263, -0.085, 0.419 ],
+					"rotationX": -36.336086246475354,
+					"rotationY": -3.4578104145442534,
+					"rotationZ": -94.69455251242658,
+					"faces": {
+						"north": { "texture": "#iron", "uv": [ 5.25, 3.5, 2.75, 7.0 ], "autoUv": false },
+						"east": { "texture": "#iron", "uv": [ 6.0, 5.0, 8.25, 7.5 ], "autoUv": false },
+						"south": { "texture": "#iron", "uv": [ 5.25, 4.5, 2.75, 7.0 ], "autoUv": false },
+						"west": { "texture": "#iron", "uv": [ 5.0, 4.5, 7.25, 7.0 ], "autoUv": false },
+						"up": { "texture": "#iron", "uv": [ 3.0, 2.0, 5.25, 4.5 ], "autoUv": false },
+						"down": { "texture": "#iron", "uv": [ 3.75, 4.0, 6.0, 6.5 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "JewelersMoldL1",
+							"from": [ 0.0, 0.1, 0.0 ], 
+							"to": [ 1.0, 0.3, 0.2 ], 
+							"rotationOrigin": [ 0.0, -1.9, 0.0 ],
+							"faces": {
+								"north": { "texture": "#iron", "uv": [ 5.25, 3.5, 2.75, 7.0 ], "autoUv": false },
+								"east": { "texture": "#iron", "uv": [ 6.0, 5.0, 8.25, 7.5 ], "autoUv": false },
+								"south": { "texture": "#iron", "uv": [ 5.25, 4.5, 2.75, 7.0 ], "autoUv": false },
+								"west": { "texture": "#iron", "uv": [ 5.0, 4.5, 7.25, 7.0 ], "autoUv": false },
+								"up": { "texture": "#iron", "uv": [ 3.0, 2.0, 5.25, 4.5 ], "autoUv": false },
+								"down": { "texture": "#iron", "uv": [ 3.75, 4.0, 6.0, 6.5 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "JewelersMoldL2",
+							"from": [ 0.0, 0.1, 0.4 ], 
+							"to": [ 1.0, 0.3, 0.6 ], 
+							"rotationOrigin": [ 0.0, -1.9, 0.4 ],
+							"faces": {
+								"north": { "texture": "#iron", "uv": [ 5.25, 3.5, 2.75, 7.0 ], "autoUv": false },
+								"east": { "texture": "#iron", "uv": [ 6.0, 5.0, 8.25, 7.5 ], "autoUv": false },
+								"south": { "texture": "#iron", "uv": [ 5.25, 4.5, 2.75, 7.0 ], "autoUv": false },
+								"west": { "texture": "#iron", "uv": [ 5.0, 4.5, 7.25, 7.0 ], "autoUv": false },
+								"up": { "texture": "#iron", "uv": [ 3.0, 2.0, 5.25, 4.5 ], "autoUv": false },
+								"down": { "texture": "#iron", "uv": [ 3.75, 4.0, 6.0, 6.5 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "JewelersMoldL3",
+							"from": [ 0.0, 0.1, 0.2 ], 
+							"to": [ 0.2, 0.3, 0.4 ], 
+							"rotationOrigin": [ 0.0, -1.9, 0.2 ],
+							"faces": {
+								"north": { "texture": "#iron", "uv": [ 5.25, 3.5, 2.75, 7.0 ], "autoUv": false },
+								"east": { "texture": "#iron", "uv": [ 6.0, 5.0, 8.25, 7.5 ], "autoUv": false },
+								"south": { "texture": "#iron", "uv": [ 5.25, 4.5, 2.75, 7.0 ], "autoUv": false },
+								"west": { "texture": "#iron", "uv": [ 5.0, 4.5, 7.25, 7.0 ], "autoUv": false },
+								"up": { "texture": "#iron", "uv": [ 3.0, 2.0, 5.25, 4.5 ], "autoUv": false },
+								"down": { "texture": "#iron", "uv": [ 3.75, 4.0, 6.0, 6.5 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "JewelersMoldL4",
+							"from": [ 0.8, 0.1, 0.2 ], 
+							"to": [ 1.0, 0.3, 0.4 ], 
+							"rotationOrigin": [ 0.8, -1.9, 0.2 ],
+							"faces": {
+								"north": { "texture": "#iron", "uv": [ 5.25, 3.5, 2.75, 7.0 ], "autoUv": false },
+								"east": { "texture": "#iron", "uv": [ 6.0, 5.0, 8.25, 7.5 ], "autoUv": false },
+								"south": { "texture": "#iron", "uv": [ 5.25, 4.5, 2.75, 7.0 ], "autoUv": false },
+								"west": { "texture": "#iron", "uv": [ 5.0, 4.5, 7.25, 7.0 ], "autoUv": false },
+								"up": { "texture": "#iron", "uv": [ 3.0, 2.0, 5.25, 4.5 ], "autoUv": false },
+								"down": { "texture": "#iron", "uv": [ 3.75, 4.0, 6.0, 6.5 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "JewelersMoldL5",
+							"from": [ 0.4, 0.1, 0.2 ], 
+							"to": [ 0.6, 0.3, 0.4 ], 
+							"rotationOrigin": [ 0.4, -1.9, 0.2 ],
+							"faces": {
+								"north": { "texture": "#iron", "uv": [ 5.25, 3.5, 2.75, 7.0 ], "autoUv": false },
+								"east": { "texture": "#iron", "uv": [ 6.0, 5.0, 8.25, 7.5 ], "autoUv": false },
+								"south": { "texture": "#iron", "uv": [ 5.25, 4.5, 2.75, 7.0 ], "autoUv": false },
+								"west": { "texture": "#iron", "uv": [ 5.0, 4.5, 7.25, 7.0 ], "autoUv": false },
+								"up": { "texture": "#iron", "uv": [ 3.0, 2.0, 5.25, 4.5 ], "autoUv": false },
+								"down": { "texture": "#iron", "uv": [ 3.75, 4.0, 6.0, 6.5 ], "autoUv": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "JewelersGriphandle54",
+					"from": [ -1.6359, 3.0053, -0.5181 ], 
+					"to": [ -1.3859, 4.2053, -0.2681 ], 
+					"rotationOrigin": [ -1.6359, 1.0053, -0.5181 ],
+					"rotationX": -32.93619198776828,
+					"rotationY": 2.1773102938558537,
+					"rotationZ": -93.35628556534526,
+					"faces": {
+						"north": { "texture": "#iron", "uv": [ 5.25, 3.5, 2.75, 7.0 ], "autoUv": false },
+						"east": { "texture": "#iron", "uv": [ 6.0, 5.0, 8.25, 7.5 ], "autoUv": false },
+						"south": { "texture": "#iron", "uv": [ 5.25, 4.5, 2.75, 7.0 ], "autoUv": false },
+						"west": { "texture": "#iron", "uv": [ 5.0, 4.5, 7.25, 7.0 ], "autoUv": false },
+						"up": { "texture": "#iron", "uv": [ 3.0, 2.0, 5.25, 4.5 ], "autoUv": false },
+						"down": { "texture": "#iron", "uv": [ 3.75, 4.0, 6.0, 6.5 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "JewelersGrip55",
+							"from": [ 0.2, 1.2, 0.075 ], 
+							"to": [ 0.3, 1.4, 0.175 ], 
+							"rotationOrigin": [ 0.2, -0.8, 0.1 ],
+							"faces": {
+								"north": { "texture": "#iron", "uv": [ 5.25, 3.5, 2.75, 7.0 ], "autoUv": false },
+								"east": { "texture": "#iron", "uv": [ 6.0, 5.0, 8.25, 7.5 ], "autoUv": false },
+								"south": { "texture": "#iron", "uv": [ 5.25, 4.5, 2.75, 7.0 ], "autoUv": false },
+								"west": { "texture": "#iron", "uv": [ 5.0, 4.5, 7.25, 7.0 ], "autoUv": false },
+								"up": { "texture": "#iron", "uv": [ 3.0, 2.0, 5.25, 4.5 ], "autoUv": false },
+								"down": { "texture": "#iron", "uv": [ 3.75, 4.0, 6.0, 6.5 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "JewelersGrip56",
+							"from": [ -0.05, 1.2, 0.075 ], 
+							"to": [ 0.05, 1.4, 0.175 ], 
+							"rotationOrigin": [ -0.1, -0.8, 0.1 ],
+							"faces": {
+								"north": { "texture": "#iron", "uv": [ 5.25, 3.5, 2.75, 7.0 ], "autoUv": false },
+								"east": { "texture": "#iron", "uv": [ 6.0, 5.0, 8.25, 7.5 ], "autoUv": false },
+								"south": { "texture": "#iron", "uv": [ 5.25, 4.5, 2.75, 7.0 ], "autoUv": false },
+								"west": { "texture": "#iron", "uv": [ 5.0, 4.5, 7.25, 7.0 ], "autoUv": false },
+								"up": { "texture": "#iron", "uv": [ 3.0, 2.0, 5.25, 4.5 ], "autoUv": false },
+								"down": { "texture": "#iron", "uv": [ 3.75, 4.0, 6.0, 6.5 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "JewelersGrip57",
+							"from": [ 0.075, 1.2, 0.2 ], 
+							"to": [ 0.175, 1.4, 0.3 ], 
+							"rotationOrigin": [ 0.1, -0.8, 0.3 ],
+							"faces": {
+								"north": { "texture": "#iron", "uv": [ 5.25, 3.5, 2.75, 7.0 ], "autoUv": false },
+								"east": { "texture": "#iron", "uv": [ 6.0, 5.0, 8.25, 7.5 ], "autoUv": false },
+								"south": { "texture": "#iron", "uv": [ 5.25, 4.5, 2.75, 7.0 ], "autoUv": false },
+								"west": { "texture": "#iron", "uv": [ 5.0, 4.5, 7.25, 7.0 ], "autoUv": false },
+								"up": { "texture": "#iron", "uv": [ 3.0, 2.0, 5.25, 4.5 ], "autoUv": false },
+								"down": { "texture": "#iron", "uv": [ 3.75, 4.0, 6.0, 6.5 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "JewelersGrip58",
+							"from": [ 0.075, 1.2, -0.05 ], 
+							"to": [ 0.175, 1.4, 0.05 ], 
+							"rotationOrigin": [ 0.1, -0.8, 0.1 ],
+							"faces": {
+								"north": { "texture": "#iron", "uv": [ 5.25, 3.5, 2.75, 7.0 ], "autoUv": false },
+								"east": { "texture": "#iron", "uv": [ 6.0, 5.0, 8.25, 7.5 ], "autoUv": false },
+								"south": { "texture": "#iron", "uv": [ 5.25, 4.5, 2.75, 7.0 ], "autoUv": false },
+								"west": { "texture": "#iron", "uv": [ 5.0, 4.5, 7.25, 7.0 ], "autoUv": false },
+								"up": { "texture": "#iron", "uv": [ 3.0, 2.0, 5.25, 4.5 ], "autoUv": false },
+								"down": { "texture": "#iron", "uv": [ 3.75, 4.0, 6.0, 6.5 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "JewelersGrip59",
+							"from": [ -0.13, -0.2, -0.13 ], 
+							"to": [ 0.37, 0.1, 0.37 ], 
+							"rotationOrigin": [ -0.1, -2.3, 0.0 ],
+							"faces": {
+								"north": { "texture": "#iron", "uv": [ 5.25, 3.5, 2.75, 7.0 ], "autoUv": false },
+								"east": { "texture": "#iron", "uv": [ 6.0, 5.0, 8.25, 7.5 ], "autoUv": false },
+								"south": { "texture": "#iron", "uv": [ 5.25, 4.5, 2.75, 7.0 ], "autoUv": false },
+								"west": { "texture": "#iron", "uv": [ 5.0, 4.5, 7.25, 7.0 ], "autoUv": false },
+								"up": { "texture": "#iron", "uv": [ 3.0, 2.0, 5.25, 4.5 ], "autoUv": false },
+								"down": { "texture": "#iron", "uv": [ 3.75, 4.0, 6.0, 6.5 ], "autoUv": false }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

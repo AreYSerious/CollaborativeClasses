@@ -1,0 +1,50 @@
+[
+	{
+		ingredientPattern: "BBB,LGL",
+		requiresTrait: "bonewright",
+		ingredients: {
+			"B": { type: "item", code: "game:bone", quantity: 5 },
+			"L": { type: "item", code: "game:leather-plain", quantity: 2 },
+			"G": { type: "item", code: "gembits" }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "armor-head-leather-bone", quantity: 1 }
+	},
+	{
+		ingredientPattern: "C_C,BBB,_R_",
+		requiresTrait: "bonewright",
+		ingredients: {
+			"B": { type: "item", code: "game:bone", quantity: 2 },
+			"C": { type: "item", code: "game:cattailtops", quantity: 2 },
+			"R": { type: "item", code: "game:fruit-cranberry", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "armor-head-maskbone-purple", quantity: 1 }
+	},
+	{
+		ingredientPattern: "C_C,BBB,_R_",
+		requiresTrait: "bonewright",
+		ingredients: {
+			"B": { type: "item", code: "game:bone", quantity: 2 },
+			"C": { type: "item", code: "game:cattailtops", quantity: 2 },
+			"R": { type: "item", code: "game:fruit-blueberry", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "armor-head-maskbone-blue", quantity: 1 }
+	},
+	{
+		ingredientPattern: "C_C,BBB,_R_",
+		requiresTrait: "bonewright",
+		ingredients: {
+			"B": { type: "item", code: "game:bone", quantity: 2 },
+			"C": { type: "item", code: "game:cattailtops", quantity: 2 },
+			"R": { type: "item", code: "game:cattailtops", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "armor-head-maskbone-green", quantity: 1 }
+	},
+]

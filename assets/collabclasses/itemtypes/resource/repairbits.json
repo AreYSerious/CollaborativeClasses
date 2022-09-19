@@ -1,0 +1,13 @@
+{
+	code: "repairbits",
+	maxstacksize: 64,
+	variantgroups: [
+		{ code: "material", states: ["leather", "metal"] },
+	],
+	texture: { base: "item/repairbits32x32" },
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	fpHandTransform: {
+		translation: { x: 0.046875, y: -0.2, z: 0 },
+		rotation: { x: 180, y: 90, z: 15 }
+	}
+}

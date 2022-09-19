@@ -1,0 +1,11 @@
+{
+	ingredientPattern: "H	S",
+	requiresTrait: "bowyer",
+	ingredients: {
+		"H": { type: "item", code: "game:arrowhead-flint" },
+		"S": { type: "item", code: "game:stick" }
+	},
+	width: 1,
+	height: 2,
+	output: { type: "item", code: "game:arrow-crude", quantity: 1  }
+}

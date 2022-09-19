@@ -1,0 +1,146 @@
+{
+	code: "hoe",
+	class: "ItemHoe",
+	heldTpUseAnimation: "hoe",
+	attributes: {
+		handbook: {
+			groupBy: ["hoe-*"]
+		},
+		toolrackTransformByType: {
+			"*-copper": {
+				rotation: { y: 1, z: -1 },
+				translation: { x: -0.25, y: 0.6 },
+				scale: 1.25,
+			},
+			"*-tinbronze": {
+				rotation: { y: 1, z: -1 },
+				translation: { x: -0.25, y: 0.6 },
+				scale: 1.25,
+			},
+			"*-bismuthbronze": {
+				rotation: { y: 1, z: -1 },
+				translation: { x: -0.25, y: 0.6 },
+				scale: 1.25,
+			},
+			"*-blackbronze": {
+				rotation: { y: 1, z: -1 },
+				translation: { x: -0.25, y: 0.6 },
+				scale: 1.25,
+			},
+			"*-iron": {
+				rotation: { y: 1, z: -1 },
+				translation: { x: -0.25, y: 0.6 },
+				scale: 1.25,
+			},
+			"*-gold": {
+				rotation: { y: 1, z: -1 },
+				translation: { x: -0.25, y: 0.6 },
+				scale: 1.25,
+			},
+			"*-silver": {
+				rotation: { y: 1, z: -1 },
+				translation: { x: -0.25, y: 0.6 },
+				scale: 1.25,
+			}
+		}
+	},
+	variantgroups: [
+		{ code: "metal", states: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel" ] },
+	],
+	damagedby: ["blockbreaking", "attacking"],
+	shapeByType: {
+		"*-copper": { "base": "item/tool/hoe-copper" },
+		"*-tinbronze": { "base": "item/tool/hoe-copper" },
+		"*-bismuthbronze": { "base": "item/tool/hoe-copper" },
+		"*-blackbronze": { "base": "item/tool/hoe-copper" },
+		"*-gold": { "base": "item/tool/hoe-copper" },
+		"*-silver": { "base": "item/tool/hoe-copper" },
+		"*-iron": { "base": "item/tool/hoe-copper" },
+		"*-meteoriciron": { "base": "item/tool/hoe-copper" },
+		"*-steel": { "base": "item/tool/hoe-copper" }
+	},
+	heldTpHitAnimation: "breaktool",
+	textures: {
+		"metal": { base: "game:block/metal/ingot/{metal}" }
+	},
+	tool: "hoe",
+	miningspeedbytype: {
+		"hoe-copper": {
+			"soil": 2.6
+		},
+		"hoe-bismuthbronze": {
+			"soil": 3.2
+		},
+		"hoe-tinbronze": {
+			"soil": 3.6
+		},
+		"hoe-gold": {
+			"soil": 3.6
+		},
+		"hoe-silver": {
+			"soil": 3.6
+		},
+		"hoe-blackbronze": {
+			"soil": 3.6
+		},
+		"hoe-iron": {
+			"soil": 4
+		},
+		"hoe-meteoriciron": {
+			"soil": 4.15
+		},
+		"hoe-steel": {
+			"soil": 4.4
+		},
+	},
+	durabilitybytype: {
+		"hoe-gold": 180,
+		"hoe-silver": 180,
+		"hoe-copper": 400,
+		"hoe-tinbronze": 480,
+		"hoe-bismuthbronze": 600,
+		"hoe-blackbronze": 660,
+		"hoe-iron": 1000,
+		"hoe-meteoriciron": 1200,
+		"hoe-steel": 2500,
+	},
+	attackpowerbytype: {
+		"hoe-copper": 1.25,
+		"hoe-gold": 1.5,
+		"hoe-silver": 1.5,
+		"hoe-bismuthbronze": 1.5,
+		"hoe-tinbronze": 1.75,
+		"hoe-blackbronze": 2,
+		"hoe-iron": 2.25,
+		"hoe-metoriciron": 2.3,
+		"hoe-steel": 2.5,
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"] },
+	fpHandTransform: {
+		translation: { x: 0.046875, y: 0, z: 0 },
+		rotation: { x: 15, y: 15, z: 90 },
+		scale: 2.5
+	},
+	guiTransformByType: {
+		"@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -56, y: -127, z: -180 },
+			origin: { x: 0.35, y: 0, z: 0.55 },
+			scale: 1.43
+		}
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 3.6
+	},
+	tpHandTransformByType: {
+		"@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)": {
+			translation: { x: -1, y: -0.5, z: -0.08 },
+			rotation: { x: 90, y: 0, z: -5 },
+			scale: 1
+		}
+	}
+}

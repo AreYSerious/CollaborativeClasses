@@ -1,0 +1,98 @@
+[
+	{
+		ingredientPattern: "BHL,CA_",
+		requiresTrait: "blacksmith",
+		recipeGroup: 2,
+		AverageDurability: "false",
+		ingredients: {
+			"B": { type: "item", code: "repairbits-metal", quantity: 1 },
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"L": { type: "item", code: "game:leather-plain", quantity: 1 },
+			"C": { type: "item", code: "game:metalplate-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 1 },
+			"A": { type: "item", code: "game:armor-head-brigandine-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 1 },
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "game:armor-head-brigandine-{metal}" }
+	},
+	{
+		ingredientPattern: "BHL,CA_",
+		requiresTrait: "blacksmith",
+		recipeGroup: 2,
+		AverageDurability: "false",
+		ingredients: {
+			"B": { type: "item", code: "repairbits-metal", quantity: 3 },
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"L": { type: "item", code: "game:leather-plain", quantity: 3 },
+			"C": { type: "item", code: "game:metalplate-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 2 },
+			"A": { type: "item", code: "game:armor-body-brigandine-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 1 },
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "game:armor-body-brigandine-{metal}" }
+	},
+	{
+		ingredientPattern: "BHL,CA_",
+		requiresTrait: "blacksmith",
+		recipeGroup: 2,
+		AverageDurability: "false",
+		ingredients: {
+			"B": { type: "item", code: "repairbits-metal", quantity: 2 },
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"L": { type: "item", code: "game:leather-plain", quantity: 2 },
+			"C": { type: "item", code: "game:metalplate-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 2 },
+			"A": { type: "item", code: "game:armor-legs-brigandine-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 1 },
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "game:armor-legs-brigandine-{metal}" }
+	},
+	{
+		ingredientPattern: "BHL,CA_",
+		requiresTrait: "blacksmith",
+		recipeGroup: 2,
+		AverageDurability: "false",
+		ingredients: {
+			"B": { type: "item", code: "repairbits-metal", quantity: 1 },
+			"H": { type: "item", code: "hammer-*", isTool: true },
+			"L": { type: "item", code: "game:leather-plain", quantity: 1 },
+			"C": { type: "item", code: "game:metalplate-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 1 },
+			"A": { type: "item", code: "game:armor-head-brigandine-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 1 },
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "game:armor-head-brigandine-{metal}" }
+	},
+	{
+		ingredientPattern: "BHL,CA_",
+		requiresTrait: "blacksmith",
+		recipeGroup: 2,
+		AverageDurability: "false",
+		ingredients: {
+			"B": { type: "item", code: "repairbits-metal", quantity: 3 },
+			"H": { type: "item", code: "hammer-*", isTool: true },
+			"L": { type: "item", code: "game:leather-plain", quantity: 3 },
+			"C": { type: "item", code: "game:metalplate-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 2 },
+			"A": { type: "item", code: "game:armor-body-brigandine-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 1 },
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "game:armor-body-brigandine-{metal}" }
+	},
+	{
+		ingredientPattern: "BHL,CA_",
+		requiresTrait: "blacksmith",
+		recipeGroup: 2,
+		AverageDurability: "false",
+		ingredients: {
+			"B": { type: "item", code: "repairbits-metal", quantity: 2 },
+			"H": { type: "item", code: "hammer-*", isTool: true },
+			"L": { type: "item", code: "game:leather-plain", quantity: 2 },
+			"C": { type: "item", code: "game:metalplate-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 2 },
+			"A": { type: "item", code: "game:armor-legs-brigandine-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 1 },
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "game:armor-legs-brigandine-{metal}" }
+	}
+]

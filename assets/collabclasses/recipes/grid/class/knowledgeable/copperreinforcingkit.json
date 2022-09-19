@@ -1,0 +1,62 @@
+[
+{
+	ingredientPattern: "BH_,RI_,FC_",
+	requiresTrait: "knowledgeable",
+	ingredients: {
+		"B": { type: "item", code: "game:bread-*"},
+		"H": { type: "item", code: "game:hammer-*", name: "metal", isTool: true, toolDurabilityCost: 20},
+		"I": { type: "item", code: "game:ingot-copper"},
+		"R": { type: "item", code: "game:resin", quantity: 1},
+		"F": { type: "item", code: "game:fat", quantity: 1},
+		"C": { type: "item", code: "game:charcoal", quantity: 8}
+	},
+	width: 3,
+	height: 3,
+	output: { type: "item", code: "copperreinforcingkit", quantity: 3  }
+},
+{
+	ingredientPattern: "BH_,RI_,FC_",
+	requiresTrait: "knowledgeable",
+	ingredients: {
+		"B": { type: "item", code: "game:bread-*"},
+		"H": { type: "item", code: "hammer-*", name: "metal", isTool: true, toolDurabilityCost: 20},
+		"I": { type: "item", code: "game:ingot-copper"},
+		"R": { type: "item", code: "game:resin", quantity: 1},
+		"F": { type: "item", code: "game:fat", quantity: 1},
+		"C": { type: "item", code: "game:charcoal", quantity: 8}
+	},
+	width: 3,
+	height: 3,
+	output: { type: "item", code: "copperreinforcingkit", quantity: 3  }
+},
+{
+	ingredientPattern: "BH_,RM_,FC_",
+	requiresTrait: "knowledgeable",
+	ingredients: {
+		"B": { type: "item", code: "game:bread-*"},
+		"H": { type: "item", code: "game:hammer-*", name: "metal", isTool: true, toolDurabilityCost: 20},
+		"M": { type: "item", code: "game:ingot-molybdochalkos"},
+		"R": { type: "item", code: "game:resin", quantity: 1},
+		"F": { type: "item", code: "game:fat", quantity: 1},
+		"C": { type: "item", code: "game:charcoal", quantity: 8}
+	},
+	width: 3,
+	height: 3,
+	output: { type: "item", code: "copperreinforcingkit", quantity: 4  }
+},
+{
+	ingredientPattern: "BH_,RM_,FC_",
+	requiresTrait: "knowledgeable",
+	ingredients: {
+		"B": { type: "item", code: "game:bread-*"},
+		"H": { type: "item", code: "hammer-*", name: "metal", isTool: true, toolDurabilityCost: 20},
+		"M": { type: "item", code: "game:ingot-molybdochalkos"},
+		"R": { type: "item", code: "game:resin", quantity: 1},
+		"F": { type: "item", code: "game:fat", quantity: 1},
+		"C": { type: "item", code: "game:charcoal", quantity: 8}
+	},
+	width: 3,
+	height: 3,
+	output: { type: "item", code: "copperreinforcingkit", quantity: 4  }
+},
+]

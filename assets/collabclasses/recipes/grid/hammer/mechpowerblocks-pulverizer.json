@@ -1,0 +1,25 @@
+[
+	{
+		ingredientPattern: "HP,CA",
+		ingredients: {
+			"H": { type: "item", code: "hammer-*", isTool: true },
+			"P": { type: "item", code: "game:metalplate-*", allowedVariants: ["tinbronze", "bismuthbronze", "iron", "meteoriciron", "steel"] },
+			"C": { type: "item", code: "chisel-*", isTool: true },
+			"A": { type: "block", code: "game:woodenaxle-ud" }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "game:pulverizertoggle-oak", quantity: 1 }
+	},
+	{
+		ingredientPattern: "HL_,CL_,_L_",
+		ingredients: {
+			"H": { type: "item", code: "hammer-*", isTool: true },
+			"C": { type: "item", code: "chisel-*", isTool: true },
+			"L": { type: "block", code: "game:log-placed-*-ud", name: "wood" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "game:pounder-oak", quantity: 1 }
+	}
+]

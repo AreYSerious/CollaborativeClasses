@@ -1,0 +1,70 @@
+{
+	code: "swordkopesh",
+	attributes: {
+		handbook: {
+			groupBy: ["swordkopesh-*"]
+		},
+		toolrackTransform: {
+			translation: { x: -0.2, y: 0.1, z: 0 },
+			rotation: { x: 90, y: 180, z: -90 },
+			scale: 1.63
+		}
+	},
+	variantgroups: [
+		{ code: "metal", states: ["iron", "copper"] },
+	],
+	tool: "sword",
+	damagedby: ["blockbreaking", "attacking"],
+	shape: { base: "item/tool/swordkopesh" },
+	textures: {
+		"metal": { base: "game:block/metal/ingot/{metal}" }
+	},
+	heldTpHitAnimation: "swordhit",
+	attackRange: 2.5,
+	tooltierbytype: {
+		"*-iron": 4,
+		"*-copper": 3,
+	},
+	miningspeedbytype: {
+		"swordkopesh-iron": {
+			"wood": 3,
+			"leaves": 3
+		},
+		"swordkopesh-copper": {
+			"wood": 2.5,
+			"leaves": 2.3
+		},
+	},
+	attackpowerbytype: {
+		"swordkopesh-iron": 4.15,
+		"swordkopesh-copper": 3.5,
+	},
+	durabilitybytype: {
+		"swordkopesh-iron": 1600,
+		"swordkopesh-copper": 1000,
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"] },
+	guiTransform: {
+		translation: { x: 4, y: -5, z: 0 },
+		rotation: { x: 180, y: 180, z: 35 },
+		origin: { x: 0.5, y: 1, z: 0.25 }
+	},
+	fpHandTransform: {
+		translation: { x: 0.6, y: 0.3, z: 0.7 },
+		rotation: { x: 7, y: 108, z: -1 },
+		origin: { x: 0, y: 0, z: 0.5 },
+		scale: 1.8
+	},
+	groundTransform: {
+		translation: { x: 0, y: -0.35, z: 0 },
+		rotation: { x: -90, y: -48, z: 4 },
+		origin: { x: 0, y: 0, z: 0 },
+		scale: 3.85
+	},
+	tpHandTransform: {
+		translation: { x: -0.47, y: -0.01, z: -0.52 },
+		rotation: { x: -2, y: -180, z: 78 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 0.9
+	}
+}

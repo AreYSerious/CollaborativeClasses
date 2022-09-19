@@ -1,0 +1,26 @@
+[
+{
+	ingredientPattern: "BK,S_",
+	requiresTrait: "forger",
+	ingredients: {
+		"B": { type: "item", code: "swordkopeshblade-copper" },
+		"K": { type: "item", code: "copperreinforcingkit" },
+		"S": { type: "item", code: "swordhandle" },
+	},
+	width: 2,
+	height: 2,
+	output: { type: "item", code: "swordkopesh-copper", quantity: 1  }
+},
+{
+	ingredientPattern: "BK,S_",
+	requiresTrait: "forger",
+	ingredients: {
+		"B": { type: "item", code: "swordkopeshblade-iron" },
+		"K": { type: "item", code: "ironreinforcingkit" },
+		"S": { type: "item", code: "swordhandle" },
+	},
+	width: 2,
+	height: 2,
+	output: { type: "item", code: "swordkopesh-iron", quantity: 1  }
+},
+]

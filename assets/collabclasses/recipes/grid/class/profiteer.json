@@ -1,0 +1,50 @@
+[
+	{
+		ingredientPattern: "QGU,CIP",
+		requiresTrait: "profiteer",
+		ingredients: {
+			"U": { type: "item", code: "game:clearquartz" },
+			"Q": { type: "item", code: "game:ore-quartz" },
+			"I": { type: "item", code: "game:ingot-copper" },
+			"G": { type: "item", code: "gembits" },
+			"C": { type: "item", code: "game:charcoal", quantity: 4 },
+			"P": { type: "item", code: "game:plank-*", quantity: 8 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "jewellerskit", quantity: 6 }
+	},
+		{
+		ingredientPattern: "G__,_J_,___",
+		requiresTrait: "profiteer",
+		ingredients: {
+			"J": { type: "item", code: "jewellerskit" },
+			"G": { type: "item", code: "gembits", quantity: 2 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "game:gem-emerald-rough", quantity: 1  }
+	},
+		{
+		ingredientPattern: "_G_,_J_,___",
+		requiresTrait: "profiteer",
+		ingredients: {
+			"J": { type: "item", code: "jewellerskit" },
+			"G": { type: "item", code: "gembits", quantity: 3 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "game:gem-diamond-rough", quantity: 1  }
+	},
+		{
+		ingredientPattern: "__G,_J_,___",
+		requiresTrait: "profiteer",
+		ingredients: {
+			"J": { type: "item", code: "jewellerskit" },
+			"G": { type: "item", code: "gembits", quantity: 3 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "game:gem-olivine_peridot-rough", quantity: 1  }
+	}
+]

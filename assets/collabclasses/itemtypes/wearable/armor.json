@@ -1,0 +1,193 @@
+{
+	code: "armor",
+	class: "ItemWearable",
+	variantgroups: [
+		{ code: "bodypart",  states: ["head", "body", "legs"] },
+		{ code: "construction",  states: [
+			"maskbone",
+			"leather",
+		]},
+		{ code: "extra", states: [
+			"bone",
+			"purple",
+			"blue",
+			"green",
+		]},
+	],
+	skipVariants: [
+		"armor-body-leather-bone",
+		"armor-legs-leather-bone",
+
+		"armor-head-maskbone-bone",
+
+		"armor-body-maskbone-purple",
+		"armor-legs-maskbone-purple",
+
+		"armor-body-maskbone-blue",
+		"armor-legs-maskbone-blue",
+
+		"armor-body-maskbone-green",
+		"armor-legs-maskbone-green",
+	],
+	allowedVariants: [
+		"armor-head-leather-bone",
+
+		"armor-head-maskbone-purple",
+		"armor-head-maskbone-blue",
+		"armor-head-maskbone-green",
+	],
+	shapeByType: {
+		"armor-head-leather-bone": { base: "entity/humanoid/seraph/armor/boneleatherhelmet" },
+
+		"armor-head-maskbone-purple": { base: "entity/humanoid/seraph/armor/bonemaskpurple" },
+		"armor-head-maskbone-blue": { base: "entity/humanoid/seraph/armor/bonemaskblue" },
+		"armor-head-maskbone-green": { base: "entity/humanoid/seraph/armor/bonemaskgreen" },
+
+	},
+	texturesByType: {
+		"*": {
+			"seraph": { base: "game:block/transparent" },
+		}
+	},
+	storageFlags: 128,
+	attributes: {
+		wearableAttachment: true,
+		clothescategoryByType: {
+			"armor-head-*": "armorhead",
+			"armor-body-*": "armorbody",
+			"armor-legs-*": "armorlegs",
+		},
+		disableElementsByType: {
+			"armor-head-leather-bone": ["Hair tile upper part", "Ponytail1", "Beard", "hideme"]
+		},
+		defaultProtLoss: {
+			perTierRelativeProtectionLoss: [0.03, 0.15],
+			perTierFlatDamageReductionLoss: [0.1, 0.2],
+		},
+		footStepSoundByType: {
+		},
+		protectionModifiersByType: {
+			"armor-*-leather-bone": {
+				relativeProtection: 0.6,
+				flatDamageReduction: 0.6,
+				protectionTier: 1,
+				highDamageTierResistant: true,
+				perTierRelativeProtectionLoss: [0.015, 0.075],
+				perTierFlatDamageReductionLoss: [0.05, 0.1],
+			},
+			"armor-head-maskbone-*": {
+				relativeProtection: 0.50,
+				flatDamageReduction: 0.05,
+				protectionTier: 0
+			},
+
+		},
+		statModifiersByType: {
+			"armor-head-leather-bone": {
+				healingeffectivness: 0.2,
+				hungerrate: -0.1
+			},
+			"armor-head-maskbone-*": {
+				walkSpeed: -0.05,
+				healingeffectivness: 0.1,
+				hungerrate: -0.1
+			},
+		}
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "clothing": ["*"] },
+	renderAlphaTest: 0.25,
+	durabilityByType: {
+		"armor-*-leather-bone": 800,
+
+		"armor-head-maskbone-*": 100,
+		
+	},
+	
+	fpHandTransformByType: {
+		"armor-head-*": {
+			translation: { x: 0.4, y: -1.9, z: -0.5 },
+			rotation: { x: 163, y: -111, z: -180 },
+			origin: { x: 0.5, y: 1.7, z: 0.5 },
+			scale: 2.15
+		},
+		"armor-body-*": {
+			translation: { x: 0.4, y: -1.2, z: -0.5 },
+			rotation: { x: 163, y: -111, z: -180 },
+			origin: { x: 0.5, y: 1.6, z: 0.5 },
+			scale: 2.15
+		},
+		"armor-legs-*": {
+			translation: { x: 0.4, y: -1.2, z: -0.5 },
+			rotation: { x: 163, y: -111, z: -180 },
+			origin: { x: 0.5, y: 1.6, z: 0.5 },
+			scale: 2.15
+		},
+	},
+	tpHandTransformByType: {
+		"armor-head-*": {
+			translation: { x: -0.92, y: -3.2, z: -0.8 },
+			rotation: { x: -26, y: -26, z: -34 },
+			origin: { x: 0.5, y: 1.7, z: 0.5 },
+			scale: 0.55
+		},
+		"armor-body-*": {
+			translation: { x: -1, y: -2.5, z: -0.8 },
+			rotation: { x: -13, y: -80, z: 16 },
+			origin: { x: 0.5, y: 1.5, z: 0.5 },
+			scale: 0.55
+		},
+		"armor-legs-*": {
+			translation: { x: -0.7, y: -1.1, z: -0.8 },
+			rotation: { x: 71, y: 17, z: 88 },
+			origin: { x: 0.5, y: 0.7, z: 0.5 },
+			scale: 0.55
+		},
+	},
+	guiTransformByType: {
+		"armor-legs-leather-bone": {
+			translation: { x: 1, y: 0, z: 0 },
+			rotation: { x: -26, y: -46, z: -180 },
+			origin: { x: 0.5, y: 0.37, z: 0.53 },
+			scale: 2.14
+		},
+		"armor-head-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -26, y: -46, z: -180 },
+			origin: { x: 0.6, y: 1.72, z: 0.5 },
+			scale: 2
+		},
+		"armor-body-*": {
+			translation: { x: 3, y: 0, z: 0 },
+			rotation: { x: -26, y: -46, z: -180 },
+			origin: { x: 0.5, y: 1.11, z: 0.5 },
+			scale: 1.37
+		},
+		"armor-legs-*": {
+			translation: { x: 1, y: 0, z: 0 },
+			rotation: { x: -26, y: -46, z: -180 },
+			origin: { x: 0.5, y: 0.6, z: 0.5 },
+			scale: 1.25
+		},
+	},
+	groundTransformByType: {
+		"armor-head-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.34, y: 1.71, z: 0.5 },
+			scale: 3.1
+		},
+		"armor-body-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 90 },
+			origin: { x: 0.34, y: 1.12, z: 0.5 },
+			scale: 3.1
+		},
+		"armor-legs-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 90 },
+			origin: { x: 0.34, y: 1.12, z: 0.5 },
+			scale: 3.1
+		}
+	},
+
+}

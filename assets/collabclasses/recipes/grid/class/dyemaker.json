@@ -1,0 +1,153 @@
+[
+	{
+		ingredientPattern: "F,G",
+		requiresTrait: "dyemaker",
+		ingredients: {
+			"G": { type: "item", code: "gardeningkit" },
+			"F": { type: "block", code: "game:flower-lupine-*", name: "color" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "crudedyes", quantity: 8 }
+	},
+	{
+		ingredientPattern: "D__,_S_,___",
+		ingredients: {
+			"D": { type: "item", code: "crudedyes" },
+			"S": { type: "block", code: "game:rockpolished-*" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "plaincolourblock-black" }
+	},
+	{
+		ingredientPattern: "_D_,_S_,___",
+		ingredients: {
+			"D": { type: "item", code: "crudedyes" },
+			"S": { type: "block", code: "game:rockpolished-*" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "plaincolourblock-brown" }
+	},
+	{
+		ingredientPattern: "__D,_S_,___",
+		ingredients: {
+			"D": { type: "item", code: "crudedyes" },
+			"S": { type: "block", code: "game:rockpolished-*" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "plaincolourblock-cyan" }
+	},
+	{
+		ingredientPattern: "___,DS_,___",
+		ingredients: {
+			"D": { type: "item", code: "crudedyes" },
+			"S": { type: "block", code: "game:rockpolished-*" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "plaincolourblock-orange" }
+	},
+	{
+		ingredientPattern: "___,_SD,___",
+		ingredients: {
+			"D": { type: "item", code: "crudedyes" },
+			"S": { type: "block", code: "game:rockpolished-*" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "plaincolourblock-pink" }
+	},
+	{
+		ingredientPattern: "___,_S_,D__",
+		ingredients: {
+			"D": { type: "item", code: "crudedyes" },
+			"S": { type: "block", code: "game:rockpolished-*" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "plaincolourblock-purple" }
+	},
+	{
+		ingredientPattern: "___,_S_,_D_",
+		ingredients: {
+			"D": { type: "item", code: "crudedyes" },
+			"S": { type: "block", code: "game:rockpolished-*" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "plaincolourblock-red" }
+	},
+	{
+		ingredientPattern: "___,_S_,__D",
+		ingredients: {
+			"D": { type: "item", code: "crudedyes" },
+			"S": { type: "block", code: "game:rockpolished-*" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "plaincolourblock-yellow" }
+	},
+	{
+		ingredientPattern: "DS_,___,___",
+		ingredients: {
+			"D": { type: "item", code: "crudedyes" },
+			"S": { type: "block", code: "game:rockpolished-*" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "plaincolourblock-darkblue" }
+	},
+	{
+		ingredientPattern: "_S_,D__,___",
+		ingredients: {
+			"D": { type: "item", code: "crudedyes" },
+			"S": { type: "block", code: "game:rockpolished-*" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "plaincolourblock-darkgreen" }
+	},
+	{
+		ingredientPattern: "_S_,___,D__",
+		ingredients: {
+			"D": { type: "item", code: "crudedyes" },
+			"S": { type: "block", code: "game:rockpolished-*" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "plaincolourblock-darkgrey" }
+	},
+	{
+		ingredientPattern: "_SD,___,___",
+		ingredients: {
+			"D": { type: "item", code: "crudedyes" },
+			"S": { type: "block", code: "game:rockpolished-*" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "plaincolourblock-lightblue" }
+	},
+	{
+		ingredientPattern: "_S_,__D,___",
+		ingredients: {
+			"D": { type: "item", code: "crudedyes" },
+			"S": { type: "block", code: "game:rockpolished-*" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "plaincolourblock-lightgreen" }
+	},
+	{
+		ingredientPattern: "_S_,___,__D",
+		ingredients: {
+			"D": { type: "item", code: "crudedyes" },
+			"S": { type: "block", code: "game:rockpolished-*" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "plaincolourblock-lightgrey" }
+	}
+]

@@ -1,0 +1,102 @@
+[
+	{
+		ingredientPattern: "CH,S_",
+		recipeGroup: 1,
+		requiresTrait: "gemextractor",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 10  },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 10  },
+			"S": { type: "item", code: "game:crystalizedore-poor-*" }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "gembits", quantity: 6  }
+	},
+	{
+		ingredientPattern: "CH,S_",
+		recipeGroup: 1,
+		requiresTrait: "gemextractor",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 10  },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 10  },
+			"S": { type: "item", code: "game:crystalizedore-medium-*" }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "gembits", quantity: 7  }
+	},
+	{
+		ingredientPattern: "CH,S_",
+		recipeGroup: 1,
+		requiresTrait: "gemextractor",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 10  },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 10  },
+			"S": { type: "item", code: "game:crystalizedore-rich-*" }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "gembits", quantity: 8  }
+	},
+	{
+		ingredientPattern: "CH,S_",
+		recipeGroup: 1,
+		requiresTrait: "gemextractor",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 10  },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 10  },
+			"S": { type: "item", code: "game:crystalizedore-bountiful-*" }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "gembits", quantity: 9  }
+	},
+	{
+		ingredientPattern: "C,S",
+		recipeGroup: 2,
+		requiresTrait: "gemextractor",
+		ingredients: {
+			"C": { type: "item", code: "jewellerskit*"  },
+			"S": { type: "item", code: "game:crystalizedore-poor-*" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "gembits", quantity: 10  }
+	},
+	{
+		ingredientPattern: "C,S",
+		recipeGroup: 2,
+		requiresTrait: "gemextractor",
+		ingredients: {
+			"C": { type: "item", code: "jewellerskit*"  },
+			"S": { type: "item", code: "game:crystalizedore-medium-*" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "gembits", quantity: 11  }
+	},
+	{
+		ingredientPattern: "C,S",
+		recipeGroup: 2,
+		requiresTrait: "gemextractor",
+		ingredients: {
+			"C": { type: "item", code: "jewellerskit*"  },
+			"S": { type: "item", code: "game:crystalizedore-rich-*" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "gembits", quantity: 12  }
+	},
+	{
+		ingredientPattern: "C,S",
+		recipeGroup: 2,
+		requiresTrait: "gemextractor",
+		ingredients: {
+			"C": { type: "item", code: "jewellerskit*"  },
+			"S": { type: "item", code: "game:crystalizedore-bountiful-*" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "gembits", quantity: 13  }
+	},
+]

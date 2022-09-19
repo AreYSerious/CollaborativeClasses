@@ -1,0 +1,36 @@
+{
+	code: "warpickhead",
+	variantgroups: [
+		{ code: "metal", states: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel" ] },
+	],
+	maxstacksize: 4,
+	shape: { base: "item/tool/warpickhead" },
+	textures: {
+		"metal": { base: "game:block/metal/ingot/{metal}" }
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	guiTransform: {
+		translation: { x: 3, y: -4, z: 0 },
+		rotation: { x: 156, y: 177, z: -11 },
+		origin: { x: 0.4, y: 0.4, z: 0.15 },
+		scale: 4.5
+	},
+	fpHandTransform: {
+		translation: { x: -0.3, y: 0.4, z: 0 },
+		rotation: { x: -33, y: -46, z: -56 },
+		origin: { x: 0, y: 0, z: 0.5 },
+		scale: 2.5
+	},
+	groundTransform: {
+		translation: { x: 0, y: -0.4, z: 0 },
+		rotation: { x: -85, y: -48, z: 4 },
+		origin: { x: 0, y: 0, z: 0 },
+		scale: 4.45
+	},
+	tpHandTransform: {
+		translation: { x: -0.37, y: -0.01, z: -0.36 },
+		rotation: { x: -48, y: 174, z: 28 },
+		origin: { x: 1, y: 0, z: 0.5 },
+		scale: 1.03
+	}
+}

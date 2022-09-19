@@ -1,0 +1,62 @@
+[
+	{
+		ingredientPattern: "LTL,_L_,_L_",
+		recipeGroup: 1,
+		requiresTrait: "leatherworker",
+		ingredients: {
+			"L": { type: "item", code: "game:leather-plain", quantity: 2 },
+			"T": { type: "item", code: "game:flaxtwine" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "game:clothes-shoulder-blacksmith-apron"  }
+	},
+	{
+		ingredientPattern: "L_L,LTL",
+		recipeGroup: 1,
+		requiresTrait: "leatherworker",
+		ingredients: {
+			"L": { type: "item", code: "game:leather-plain", quantity: 2 },
+			"T": { type: "item", code: "game:flaxtwine" }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "game:clothes-foot-worn-leather-boots"  }
+	},
+	{
+		ingredientPattern: "LTL,LTL",
+		recipeGroup: 1,
+		requiresTrait: "leatherworker",
+		ingredients: {
+			"L": { type: "item", code: "game:leather-plain", quantity: 3 },
+			"T": { type: "item", code: "game:flaxtwine" }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "game:clothes-foot-high-leather-boots"  }
+	},
+	{
+		ingredientPattern: "LTL",
+		recipeGroup: 1,
+		requiresTrait: "leatherworker",
+		ingredients: {
+			"L": { type: "item", code: "game:leather-plain", quantity: 2 },
+			"T": { type: "item", code: "game:flaxtwine" }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "game:clothes-arm-leather-bracers"  }
+	},
+	{
+		ingredientPattern: "LTL,_T_",
+		recipeGroup: 1,
+		requiresTrait: "leatherworker",
+		ingredients: {
+			"L": { type: "item", code: "game:leather-plain", quantity: 3 },
+			"T": { type: "item", code: "game:flaxtwine" }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "game:clothes-hand-heavy-leather-gloves"  }
+	}
+]

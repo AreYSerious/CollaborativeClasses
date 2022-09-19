@@ -1,0 +1,32 @@
+[
+{
+	ingredientPattern: "GNF,KLS",
+	requiresTrait: "forger",
+	ingredients: {
+		"G": { type: "item", code: "gembits" },
+		"N": { type: "item", code: "game:nugget-nativegold" },
+		"F": { type: "item", code: "game:flaxtwine" },
+		"K": { type: "item", code: "game:knife-*" },
+		"L": { type: "block", code: "game:log-*" },
+		"S": { type: "item", code: "game:saw-*" },
+	},
+	width: 3,
+	height: 2,
+	output: { type: "item", code: "swordhandle", quantity: 1  }
+},
+{
+	ingredientPattern: "GNF,KLS",
+	requiresTrait: "forger",
+	ingredients: {
+		"G": { type: "item", code: "gembits" },
+		"N": { type: "item", code: "game:nugget-nativegold" },
+		"F": { type: "item", code: "game:flaxtwine" },
+		"K": { type: "item", code: "knife-*" },
+		"L": { type: "item", code: "game:log-*" },
+		"S": { type: "item", code: "game:saw-*" },
+	},
+	width: 3,
+	height: 2,
+	output: { type: "item", code: "swordhandle", quantity: 1  }
+}
+]

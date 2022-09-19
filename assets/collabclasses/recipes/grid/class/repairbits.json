@@ -1,0 +1,98 @@
+[
+{
+	ingredientPattern: "CSI,GTH",
+	requiresTrait: "blacksmith",
+	recipeGroup: 1,
+	ingredients: {
+		"C": { type: "item", code: "game:chisel-*", isTool: true},
+		"S": { type: "item", code: "game:saw-*", isTool: true},
+		"I": { type: "item", code: "game:ingot-copper"},
+		"G": { type: "item", code: "gembits", quantity: 2},
+		"T": { type: "item", code: "game:flaxtwine", quantity: 1},
+		"H": { type: "item", code: "game:charcoal", quantity: 2}
+	},
+	width: 3,
+	height: 2,
+	output: { type: "item", code: "repairbits-metal", quantity: 6  }
+},
+{
+	ingredientPattern: "CSI,GTH",
+	requiresTrait: "blacksmith",
+	recipeGroup: 1,
+	ingredients: {
+		"C": { type: "item", code: "chisel-*", isTool: true},
+		"S": { type: "item", code: "game:saw-*", isTool: true},
+		"I": { type: "item", code: "game:ingot-copper"},
+		"G": { type: "item", code: "gembits", quantity: 2},
+		"T": { type: "item", code: "game:flaxtwine", quantity: 1},
+		"H": { type: "item", code: "game:charcoal", quantity: 2}
+	},
+	width: 3,
+	height: 2,
+	output: { type: "item", code: "repairbits-metal", quantity: 6  }
+},
+{
+	ingredientPattern: "CSI,GTH",
+	requiresTrait: "blacksmith",
+	recipeGroup: 1,
+	ingredients: {
+		"C": { type: "item", code: "game:chisel-*", isTool: true},
+		"S": { type: "item", code: "game:saw-*", isTool: true},
+		"I": { type: "item", code: "game:ingot-iron"},
+		"G": { type: "item", code: "gembits", quantity: 2},
+		"T": { type: "item", code: "game:flaxtwine", quantity: 1},
+		"H": { type: "item", code: "game:charcoal", quantity: 2}
+	},
+	width: 3,
+	height: 2,
+	output: { type: "item", code: "repairbits-metal", quantity: 16  }
+},
+{
+	ingredientPattern: "CSI,GTH",
+	requiresTrait: "blacksmith",
+	recipeGroup: 1,
+	ingredients: {
+		"C": { type: "item", code: "chisel-*", isTool: true},
+		"S": { type: "item", code: "game:saw-*", isTool: true},
+		"I": { type: "item", code: "game:ingot-iron"},
+		"G": { type: "item", code: "gembits", quantity: 2},
+		"T": { type: "item", code: "game:flaxtwine", quantity: 1},
+		"H": { type: "item", code: "game:charcoal", quantity: 2}
+	},
+	width: 3,
+	height: 2,
+	output: { type: "item", code: "repairbits-metal", quantity: 16  }
+},
+{
+	ingredientPattern: "CSL,GTF",
+	requiresTrait: "leatherworker",
+	recipeGroup: 1,
+	ingredients: {
+		"C": { type: "item", code: "game:knife-*", isTool: true},
+		"S": { type: "item", code: "game:shears-*", isTool: true},
+		"G": { type: "item", code: "gembits", quantity: 1},
+		"L": { type: "item", code: "game:leather-plain", quantity: 8},
+		"T": { type: "item", code: "game:flaxtwine", quantity: 2},
+		"F": { type: "item", code: "game:fat", quantity: 1},
+	},
+	width: 3,
+	height: 2,
+	output: { type: "item", code: "repairbits-leather", quantity: 6  }
+},
+{
+	ingredientPattern: "CSL,GTF",
+	requiresTrait: "leatherworker",
+	recipeGroup: 1,
+	ingredients: {
+		"C": { type: "item", code: "knife-*", isTool: true},
+		"S": { type: "item", code: "game:shears-*", isTool: true},
+		"G": { type: "item", code: "gembits", quantity: 1},
+		"L": { type: "item", code: "game:leather-plain", quantity: 8},
+		"T": { type: "item", code: "game:flaxtwine", quantity: 2},
+		"F": { type: "item", code: "game:fat", quantity: 1},
+	},
+	width: 3,
+	height: 2,
+	output: { type: "item", code: "repairbits-leather", quantity: 6  }
+},
+]

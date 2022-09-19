@@ -1,0 +1,215 @@
+{
+  "game:tabname-collabclasses": "Collaborative Classes",
+  "game:collaborative-classes-title": "Collaborative Classes",
+  "game:collaborative-classes-text": "<font size=22 color=yellow weight=bold align=center>Collaborative Classes</font>
+
+	<font size=16 color=yellow weight=bold align=center>-----------------------Hunter Class-----------------------</font><br><font size=16 align=center>The Hunter is the king of the jungle, capable of hunting the biggest prey.</font>
+
+<strong>Hunter - Bowyer</strong><br>Allows the crafting of the Reinforced Knife. Plus bows and arrows.
+<strong>Hunter - Bone Wright</strong><br>Allows the crafting of Bone Masks.
+<strong>Hunter - Leatherworker</strong><br>Allows repairing of leather armour with <a href=\"handbook://item-collabclasses:repairbits-leather\">Repair Bits</a>. Plus can make leather/hide clothing and sewingkits.
+
+	<font size=16 color=yellow weight=bold align=center>-----------------------Forester Class-----------------------</font><br><font size=16 align=center>The wood's call and you answer. Time to get swinging!</font>
+
+<strong>Forester - improviser</strong><br>Allows the crafting of the Reinforced Axe and Sling
+
+   	<font size=16 color=yellow weight=bold align=center>-----------------------Gatherer Class-----------------------</font><br><font size=16 align=center>The wilderness is your home. The trees, your walls. The forest floor, your kitchen. Bon Appetit!</font>
+
+<strong>Gatherer - Gardener</strong><br>Allows the crafting of the Reinforced Hoe and Reinforced Scythe. Plus the crafting of seeds.
+<strong>Gatherer - Clothier</strong><br>Can Craft Sewing Kits and linen clothing. Plus coloured gambison
+
+	<font size=16 color=yellow weight=bold align=center>-----------------------Labourer Class-----------------------</font><br><font size=16 align=center>Work work!</font>
+
+<strong>Labourer - Stonemason</strong><br>Allows the crafting of the Reinforced Chisel.
+<strong>Labourer - Dye Maker</strong><br>Allows the crafting of Crude Dyes and Dyed Blocks.
+<strong>Labourer - Knowledgable</strong><br>This trait allows you to craft <a href=\"handbook://item-collabclasses:copperreinforcingkit\">Copper Reinforcing Kit</a> and the <a href=\"handbook://item-collabclasses:ironreinforcingkit\">Iron Reinforcing Kit</a> which when applied to tools makes them twice as durable and for crafting special items. 
+<strong>Labourer - Pennypinching</strong><br>This trait allows you to convert a <a href=\"handbook://item-gear-temporal\">Temporal Gears</a> into <a href=\"handbook://item-gear-rusty\">Rusty Gears</a>at a 1/3 ratio.
+
+	<font size=16 color=yellow weight=bold align=center>-----------------------Excavator Class-----------------------</font><br><font size=16 align=center>Expect to spend most of your time under the ground or close to being so. Go forth and strike the earth!</font>
+
+<strong>Excavator - Grimy</strong><br>Allows the crafting of the Reinforced Pickaxe and a more expensive Warpick that doubles as a weapon and tool.
+<strong>Excavator - Gemcutter</strong><br>This trait allows you to break down rare cystalized ores into <a href=\"handbook://item-collabclasses:resourcegembits\">Gem Bits</a> that can be used for other classes recipes. Use a <a href=\"handbook://item-collabclasses:jewellerskit\">Jewellers Kit</a> to give you a far more efficent ratio.
+<strong>Excavator - Knowledgable</strong><br>This trait allows you to craft <a href=\"handbook://item-collabclasses:copperreinforcingkit\">Copper Reinforcing Kit</a> and the <a href=\"handbook://item-collabclasses:ironreinforcingkit\">Iron Reinforcing Kit</a> which when applied to tools makes them twice as durable and for crafting special items. 
+
+	<font size=16 color=yellow weight=bold align=center>-----------------------Mercenary Class-----------------------</font><br><font size=16 align=center>The Soldier Class is the most capable in combat out of all the classes.</font>
+
+<strong>Mercenary - Blacksmith</strong><br>Allows repairing of metal armour with <a href=\"handbook://item-collabclasses:repairbits-metal\">Repair Bits</a>.
+<strong>Mercenary - Forger</strong><br>Allows crafting of strong Copper and Iron weapons.
+<strong>Mercenary - Profiteer</strong><br>This trait allows you to to craft the <a href=\"handbook://item-collabclasses:jewellerskit\">Jewellers Kit</a> which can turn <a href=\"handbook://item-collabclasses:gembits\">Gem Bits</a> into sellable gems. Plus can be given to the miner to make getting gem bits far more efficient.
+<strong>Mercenary - Pennypinching</strong><br>This trait allows you to convert a <a href=\"handbook://item-gear-temporal\">Temporal Gears</a> into <a href=\"handbook://item-gear-rusty\">Rusty Gears</a>at a 1/3 ratio.",
+
+	"item-gembits": "Gem Bits",
+	"item-jewellerskit": "Jewellers Kit",
+
+	"itemdesc-jewellerskit": "Will yield 6 kits when crafted. Can be given to the miner to provide a more efficent way of getting gembits.",
+
+	"item-repairbits-metal": "Repair Bits Metal",
+	"item-repairbits-leather": "Repair Bits Leather",
+
+	"itemdesc-repairbits-metal": "Using a copper ingot will yield 6 bits while a iron one will yield 18.",
+
+	"item-temporalgearbits": "Temporal Gear Bits",
+	"itemdesc-temporalgearbits": "To Be Removed",
+
+	"item-rustygearbits": "Rusty Gear Bits",
+	"itemdesc-rustygearbits": "1 Rusty Gear makes 10 Rusty Gear Bits and can be converted back. Often used as currancy.",
+
+	"item-crudedyes": "Crude Dyes",
+	"item-gardeningkit": "Gardening Kit",
+
+	"itemdesc-gardeningkit": "Wil yield 12 kits when crafted.",
+
+	"item-armor-head-leather-bone": "Bone Helmet",
+
+	"item-armor-head-maskbone-purple": "Purple Bone Mask",
+	"item-armor-head-maskbone-blue": "Blue Bone Mask",
+	"item-armor-head-maskbone-green": "Green Bone Mask",
+
+	"block-plaincolourblock-black": "Plain Black Block",
+	"block-plaincolourblock-brown": "Plain Brown Block",
+	"block-plaincolourblock-cyan": "Plain Cyan Block",
+	"block-plaincolourblock-darkblue": "Plain Dark Blue Block",
+	"block-plaincolourblock-darkgreen": "Plain Dark Green Block",
+	"block-plaincolourblock-darkgrey": "Plain Dark Grey Block",
+	"block-plaincolourblock-lightblue": "Plain Light Blue Block",
+	"block-plaincolourblock-lightgreen": "Plain Light Green Block",
+	"block-plaincolourblock-lightgrey": "Plain Light Grey Block",
+	"block-plaincolourblock-orange": "Plain Orange Block",
+	"block-plaincolourblock-pink": "Plain Pink Block",
+	"block-plaincolourblock-purple": "Plain Purple Block",
+	"block-plaincolourblock-red": "Plain Red Block",
+	"block-plaincolourblock-yellow": "Plain Yellow Block",
+
+    	"item-swordhandle": "Sword Handle",
+
+	"itemdesc-swordhandle": "Not much of a weapon without it's partner",
+
+    	"item-swordkopeshblade-copper": "Copper Kopesh Blade",
+    	"item-swordkopeshblade-iron": "Iron Kopesh Blade",
+
+    	"item-swordkopesh-copper": "Copper Kopesh",
+    	"item-swordkopesh-iron": "Iron Kopesh",
+
+	"itemdesc-swordkopesh-*": "Copper variant acts almost as good as black bronze. Iron variant acts almost as good as steel.",
+
+    	"item-swordbroadswordblade-copper": "Copper Broadsword Blade",
+    	"item-swordbroadswordblade-iron": "Iron Broadsword Blade",
+
+    	"item-swordbroadsword-copper": "Copper Broadsword",
+    	"item-swordbroadsword-iron": "Iron Broadsword",
+
+	"itemdesc-swordbroadsword-*": "Copper variant acts almost as good as black bronze. Iron variant acts almost as good as steel.",
+
+    	"item-swordshortswordblade-copper": "Copper Shortsword Blade",
+    	"item-swordshortswordblade-iron": "Iron Shortsword Blade",
+
+    	"item-swordshortsword-copper": "Copper Shortsword",
+    	"item-swordshortsword-iron": "Iron Shortsword",
+
+	"itemdesc-swordshortsword-*": "Copper variant acts almost as good as black bronze. Iron variant acts almost as good as steel.",
+
+    	"item-warpickhead-copper": "Copper warpickhead",
+    	"item-warpickhead-tinbronze": "Tin bronze warpickhead",
+    	"item-warpickhead-bismuthbronze": "Bismuth bronze warpickhead",
+    	"item-warpickhead-blackbronze": "Black bronze warpickhead",
+    	"item-warpickhead-gold": "Golden warpickhead",
+    	"item-warpickhead-silver": "Silver warpickhead",
+    	"item-warpickhead-iron": "Iron warpickhead",
+	"item-warpickhead-meteoriciron": "Meteoric iron warpickhead",
+	"item-warpickhead-steel": "Steel warpickhead",
+
+    	"item-warpick-copper": "Copper warpick",
+    	"item-warpick-tinbronze": "Tin bronze warpick",
+    	"item-warpick-bismuthbronze": "Bismuth bronze warpick",
+    	"item-warpick-blackbronze": "Black bronze warpick",
+    	"item-warpick-gold": "Golden warpick",
+    	"item-warpick-silver": "Silver warpick",
+    	"item-warpick-iron": "Iron warpick",
+	"item-warpick-meteoriciron": "Meteoric iron warpick",
+	"item-warpick-steel": "Steel warpick",
+
+	"itemdesc-warpick-*": "Acts both as a pick and a weapon of equal measure",
+
+    	"item-hammer-copper": "Reinforced Copper hammer",
+    	"item-hammer-tinbronze": "Reinforced Tin bronze hammer",
+    	"item-hammer-bismuthbronze": "Reinforced Bismuth bronze hammer",
+    	"item-hammer-blackbronze": "Reinforced Black bronze hammer",
+    	"item-hammer-gold": "Reinforced Golden hammer",
+    	"item-hammer-silver": "Reinforced Silver hammer",
+    	"item-hammer-iron": "Reinforced Iron hammer",
+	"item-hammer-meteoriciron": "Reinforced Meteoric iron hammer",
+	"item-hammer-steel": "Reinforced Steel hammer",
+
+    	"item-axe-copper": "Reinforced Copper axe",
+    	"item-axe-tinbronze": "Reinforced Tin bronze axe",
+    	"item-axe-bismuthbronze": "Reinforced Bismuth bronze axe",
+    	"item-axe-blackbronze": "Reinforced Black bronze axe",
+    	"item-axe-gold": "Reinforced Golden axe",
+    	"item-axe-silver": "Reinforced Silver axe",
+    	"item-axe-iron": "Reinforced Iron axe",
+    	"item-axe-meteoriciron": "Reinforced Meteoric iron axe",
+    	"item-axe-steel": "Reinforced Steel axe",
+
+    	"item-shovel-copper": "Reinforced Copper shovel",
+    	"item-shovel-tinbronze": "Reinforced Tin bronze shovel",
+    	"item-shovel-bismuthbronze": "Reinforced Bismuth bronze shovel",
+    	"item-shovel-blackbronze": "Reinforced Black bronze shovel",
+    	"item-shovel-gold": "Reinforced Golden shovel",
+    	"item-shovel-silver": "Reinforced Silver shovel",
+    	"item-shovel-iron": "Reinforced Iron shovel",
+    	"item-shovel-meteoriciron": "Reinforced Meteoric iron shovel",
+    	"item-shovel-steel": "Reinforced Steel shovel",
+
+    	"item-chisel-copper": "Reinforced Copper chisel",
+    	"item-chisel-tinbronze": "Reinforced Tinbronze chisel",
+    	"item-chisel-bismuthbronze": "Reinforced Bismuth bronze chisel",
+    	"item-chisel-blackbronze": "Reinforced Black bronze chisel",
+    	"item-chisel-iron": "Reinforced Iron chisel",
+    	"item-chisel-meteoriciron": "Reinforced Meteoric iron chisel",
+    	"item-chisel-steel": "Reinforced Steel chisel",
+
+    	"item-hoe-copper": "Reinforced Copper hoe",
+    	"item-hoe-tinbronze": "Reinforced Tin bronze hoe",
+    	"item-hoe-bismuthbronze": "Reinforced Bismuth bronze hoe",
+    	"item-hoe-blackbronze": "Reinforced Black bronze hoe",
+    	"item-hoe-gold": "Reinforced Golden hoe",
+    	"item-hoe-silver": "Reinforced Silver hoe",
+    	"item-hoe-iron": "Reinforced Iron hoe",
+    	"item-hoe-meteoriciron": "Reinforced Meteoric iron hoe",
+    	"item-hoe-steel": "Reinforced Steel hoe",
+
+    	"item-knife-copper": "Reinforced Copper knife",
+    	"item-knife-tinbronze": "Reinforced Tin bronze knife",
+    	"item-knife-bismuthbronze": "Reinforced Bismuth bronze knife",
+    	"item-knife-blackbronze": "Reinforced Black bronze knife",
+    	"item-knife-gold": "Reinforced Golden knife",
+    	"item-knife-silver": "Reinforced Silver knife",
+    	"item-knife-iron": "Reinforced Iron knife",
+    	"item-knife-meteoriciron": "Reinforced Meteoric iron knife",
+    	"item-knife-steel": "Reinforced Steel knife",
+
+    	"item-pickaxe-copper": "Reinforced Copper pickaxe",
+    	"item-pickaxe-tinbronze": "Reinforced Tin bronze pickaxe",
+    	"item-pickaxe-bismuthbronze": "Reinforced Bismuth bronze pickaxe",
+    	"item-pickaxe-blackbronze": "Reinforced Black bronze pickaxe",
+    	"item-pickaxe-gold": "Reinforced Golden pickaxe",
+    	"item-pickaxe-silver": "Reinforced Silver pickaxe",
+    	"item-pickaxe-iron": "Reinforced Iron pickaxe",
+    	"item-pickaxe-meteoriciron": "Reinforced Meteoric iron pickaxe",
+    	"item-pickaxe-steel": "Reinforced Steel pickaxe",
+
+    	"item-scythe-copper": "Reinforced Copper scythe",
+    	"item-scythe-tinbronze": "Reinforced Tin bronze scythe",
+    	"item-scythe-bismuthbronze": "Reinforced Bismuth bronze scythe",
+   	"item-scythe-blackbronze": "Reinforced Black bronze scythe",
+    	"item-scythe-gold": "Reinforced Golden scythe",
+    	"item-scythe-silver": "Reinforced Silver scythe",
+    	"item-scythe-iron": "Reinforced Iron scythe",
+    	"item-scythe-meteoriciron": "Reinforced Meteoric iron scythe",
+    	"item-scythe-steel": "Reinforced Steel scythe",
+
+  	"item-copperreinforcingkit": "Copper Reinforcing Kit",
+	"itemdesc-copperreinforcingkit": "Can be used with tool heads and a stick to make a reinforced tool. A molybdochalkos ingot will yeild more kits than other metals.<br><br><i>Only works on tier 2 and 3 tools</i>",
+  	"item-ironreinforcingkit": "Iron Reinforcing Kit",
+	"itemdesc-ironreinforcingkit": "Can be used with tool heads and a stick to make a reinforced tool. A molybdochalkos ingot will yeild more kits than other metals.<br><br><i>Only works on tier 4+ tools</i>"
+}

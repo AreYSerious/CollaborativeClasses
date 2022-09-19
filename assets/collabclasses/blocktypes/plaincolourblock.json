@@ -1,0 +1,18 @@
+{
+	code: "plaincolourblock",
+	variantgroups: [
+		{ code: "colour", states: ["black", "brown", "cyan", "darkblue", "darkgreen", "darkgrey", "lightblue", "lightgreen", "lightgrey", "orange", "pink", "purple", "red", "yellow"] }
+	],
+	creativeinventory: { "general": ["*"] },
+	blockmaterial: "Stone",
+	drawtype: "Cube",
+	textures: {
+		all: { 
+			base: "block/plain{colour}block"
+		},
+	},
+	resistance: 1,
+	sounds: {
+		"walk": "game:walk/stone"
+	}
+}

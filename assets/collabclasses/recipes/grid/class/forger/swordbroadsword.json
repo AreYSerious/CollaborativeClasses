@@ -1,0 +1,26 @@
+[
+{
+	ingredientPattern: "BK,S_",
+	requiresTrait: "forger",
+	ingredients: {
+		"B": { type: "item", code: "swordbroadswordblade-copper" },
+		"K": { type: "item", code: "copperreinforcingkit" },
+		"S": { type: "item", code: "swordhandle" },
+	},
+	width: 2,
+	height: 2,
+	output: { type: "item", code: "swordbroadsword-copper", quantity: 1  }
+},
+{
+	ingredientPattern: "BK,S_",
+	requiresTrait: "forger",
+	ingredients: {
+		"B": { type: "item", code: "swordbroadswordblade-iron" },
+		"K": { type: "item", code: "ironreinforcingkit" },
+		"S": { type: "item", code: "swordhandle" },
+	},
+	width: 2,
+	height: 2,
+	output: { type: "item", code: "swordbroadsword-iron", quantity: 1  }
+},
+]

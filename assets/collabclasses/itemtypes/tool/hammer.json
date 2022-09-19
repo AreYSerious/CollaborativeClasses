@@ -1,0 +1,81 @@
+{
+	code: "hammer",
+	class: "ItemHammer",
+	attributes: {
+		handbook: {
+			groupBy: ["hammer-*"]
+		},
+		toolrackTransform: {
+			rotation: { y: 1, z: -1 },
+			translation: { x: -0.2 },
+			scale: 1.5,
+		}
+	},
+	variantgroups: [
+		{ code: "metal", states: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel" ] },
+	],
+	tool: "hammer",
+	heldTpHitAnimation: "smithing",
+	shape: { base: "item/tool/hammer" },
+	textures: {
+		"metal": { base: "game:block/metal/ingot/{metal}" },
+		"wood": { base: "game:item/tool/material/wood" },
+		"charcoal": { base: "game:block/coal/charcoal" } 
+	},
+	tooltierbytype: {
+		"*-copper": 2,
+		"*-gold": 2,
+		"*-silver": 2,
+		"*-bismuthbronze": 3,
+		"*-tinbronze": 3,
+		"*-blackbronze": 3,
+		"*-iron": 4,
+		"*-meteoriciron": 4,
+		"*-steel": 5,
+	},
+	durabilitybytype: {
+		"hammer-gold": 500,
+		"hammer-silver": 500,
+		"hammer-copper": 1000,
+		"hammer-tinbronze": 1500,
+		"hammer-bismuthbronze": 1800,
+		"hammer-blackbronze": 2200,
+		"hammer-iron": 3600,
+		"hammer-meteoriciron": 4200,
+		"hammer-steel": 9000,
+	},
+	attackpowerbytype: {
+		"hammer-copper": 1.25,
+		"hammer-gold": 1.5,
+		"hammer-silver": 1.5,
+		"hammer-bismuthbronze": 1.5,
+		"hammer-tinbronze": 1.75,
+		"hammer-blackbronze": 2,
+		"hammer-iron": 2.25,
+		"hammer-meteoriciron": 2.35,
+		"hammer-steel": 2.5,
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"] },
+	fpHandTransform: {
+		translation: { x: 0.0468, y: -0.2, z: 0 },
+		rotation: { x: 15, y: 15, z: 90 },
+		scale: 2.5
+	},
+	guiTransform: {
+		translation: { x: 0, y: 5, z: 0 },
+		rotation: { x: -77, y: 46, z: 8 },
+		origin: { x: 0.54, y: 0.5, z: 0.48 },
+		scale: 2.6
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0.45, z: 0.5 },
+		scale: 4.5
+	},
+	tpHandTransform: {
+		translation: { x: -0.75, y: -0.48, z: -0.52 },
+		rotation: { x: 90, y: 1, z: 0 },
+		scale: 1
+	}
+}

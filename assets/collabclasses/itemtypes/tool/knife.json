@@ -1,0 +1,107 @@
+{
+	code: "knife",
+	"__comment": "ItemKnife contains code for harvesting animal carcasses",
+	class: "ItemKnife",
+	damagedby: ["blockbreaking", "attacking"],
+	tool: "knife",
+	attributes: {
+		handbook: {
+			groupBy: ["knife-*"]
+		},
+		toolrackTransform: {
+			translation: { x: -0.3, y: 0.6, z: -0.1 },
+			rotation: { x: 97, y: 180, z: 3 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 1.25
+		}
+	},
+	variantgroups: [
+		{ code: "metal", states: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel" ] },
+	],
+	shapeByType: {
+		"*": { base: "item/tool/knife-copper" }
+	},
+	heldTpHitAnimation: "breaktool",
+	heldTpUseAnimation: "knap",
+	texturesByType: {
+		"*": {
+			"metal": { base: "game:block/metal/ingot/{metal}" }
+		},
+	},
+	durabilitybytype: {
+		"knife-gold": 300,
+		"knife-silver": 350,
+		"knife-copper": 600,
+		"knife-tinbronze": 900,
+		"knife-bismuthbronze": 1000,
+		"knife-blackbronze": 1100,
+		"knife-iron": 1800,
+		"knife-meteoriciron": 2400,
+		"knife-steel": 4500
+	},
+	miningspeedbytype: {
+		"knife-copper": {
+			"plant": 1.5,
+		},
+		"knife-silver": {
+			"plant": 1.6,
+		},
+		"knife-gold": {
+			"plant": 1.6,
+		},
+		"knife-bismuthbronze": {
+			"plant": 1.7,
+		},
+		"knife-tinbronze": {
+			"plant": 1.8,
+		},
+		"knife-blackbronze": {
+			"plant": 1.9,
+		},
+		"knife-iron": {
+			"plant": 2
+		},
+		"knife-meteoriciron": {
+			"plant": 2.2
+		},
+		"knife-steel": {
+			"plant": 2.4,
+		},
+	},
+	attackpowerbytype: {
+		"knife-copper": 1.5,
+		"knife-bismuthbronze": 2,
+		"knife-tinbronze": 2.5,
+		"knife-gold": 2.5,
+		"knife-silver": 2.5,
+		"knife-blackbronze": 3,
+		"knife-iron": 3.5,
+		"knife-meteoriciron": 3.75,
+		"knife-steel": 4,
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"] },
+	fpHandTransform: {
+		translation: { x: 0.2, y: 0.1, z: 0.5 },
+		rotation: { x: 140, y: 93, z: -75 },
+		scale: 2.5
+		
+	},
+	guiTransform: {
+		rotate: false,
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -158, y: 0, z: 48 },
+		origin: { x: 0.48, y: 0.1, z: 0.5 },
+		scale: 2.41
+	},
+	groundTransform: {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -90, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0.5, z: 0.45 },
+			scale: 3.6
+	},
+	tpHandTransform: {
+		translation: { x: -0.85, y: -0.2, z: -0.48 },
+		rotation: { x: 0, y: 0, z: -30 },
+		scale: 1		
+	}
+}

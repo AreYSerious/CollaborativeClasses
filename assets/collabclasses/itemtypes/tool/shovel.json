@@ -1,0 +1,145 @@
+{
+	code: "shovel",
+	attributes: {
+		handbook: {
+			groupBy: ["shovel-*"]
+		},
+		toolrackTransform: {
+			rotation: { y: 1, z: -1 },
+			translation: { x: -0.47, y: 0.6 },
+			scale: 1.25,
+		}
+	},
+	variantgroups: [
+		{ code: "material", states: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel"
+		  ] },
+	],
+	tool: "shovel",
+	damagedby: ["blockbreaking", "attacking"],
+	shapeByType: {
+		"shovel-copper": { base: "item/tool/shovel-metal" },
+		"shovel-tinbronze": { base: "item/tool/shovel-metal" },
+		"shovel-bismuthbronze": { base: "item/tool/shovel-metal" },
+		"shovel-blackbronze": { base: "item/tool/shovel-metal" },
+		"shovel-gold": { base: "item/tool/shovel-metal" },
+		"shovel-silver": { base: "item/tool/shovel-metal" },
+		"shovel-iron": { base: "item/tool/shovel-metal" },
+		"shovel-meteoriciron": { base: "item/tool/shovel-metal" },
+		"shovel-steel": { base: "item/tool/shovel-metal" }
+	},
+	heldTpHitAnimation: "shoveldig",
+	texturesByType: {
+		"*": {
+			"material": { base: "game:block/metal/ingot/{material}" },
+		},
+	},
+	miningspeedbytype: {
+		"shovel-copper": {
+			"soil": 4,
+			"sand": 4,
+			"gravel": 2.6,
+			"snow": 2.6
+		},
+		"shovel-bismuthbronze": {
+			"soil": 5,
+			"sand": 5,
+			"gravel": 3.2,
+			"snow": 3.2
+		},
+		"shovel-tinbronze": {
+			"soil": 5.4,
+			"sand": 5.4,
+			"gravel": 3.6,
+			"snow": 3.6
+		},
+		"shovel-gold": {
+			"soil": 5.4,
+			"sand": 5.4,
+			"gravel": 3.6,
+			"snow": 3.6
+		},
+		"shovel-silver": {
+			"soil": 5.4,
+			"sand": 5.4,
+			"gravel": 3.6,
+			"snow": 3.6
+		},
+		"shovel-blackbronze": {
+			"soil": 5.5,
+			"sand": 5.5,
+			"gravel": 3.7,
+			"snow": 3.7
+		},
+		"shovel-iron": {
+			"soil": 6,
+			"sand": 6,
+			"gravel": 4,
+			"snow": 4
+		},
+		"shovel-meteoriciron": {
+			"soil": 6.5,
+			"sand": 6.5,
+			"gravel": 4.2,
+			"snow": 4.2
+		},
+		"shovel-steel": {
+			"soil": 7,
+			"sand": 7,
+			"gravel": 4.4,
+			"snow": 4.4
+		}
+	},
+	attackpowerbytype: {
+		"shovel-chert": 0.75,
+		"shovel-granite": 0.75,
+		"shovel-andesite": 0.75,
+		"shovel-peridotite": 0.75,
+		"shovel-basalt": 0.75,
+		"shovel-obsidian": 1.25,
+		
+		"shovel-flint": 1,
+		"shovel-metal": 1.25,
+		"shovel-gold": 1.5,
+		"shovel-silver": 1.5,
+		"shovel-bismuthbronze": 1.5,
+		"shovel-tinbronze": 1.75,
+		"shovel-blackbronze": 2,
+		"shovel-iron": 2.25,
+		"shovel-meteoriciron": 2.35,
+		"shovel-steel": 2.5
+	},
+	durabilitybytype: {
+
+		"shovel-gold": 400,
+		"shovel-silver": 400,
+		"shovel-copper": 800,
+		"shovel-tinbronze": 1200,
+		"shovel-bismuthbronze": 1300,
+		"shovel-blackbronze": 1400,
+		"shovel-iron": 2400,
+		"shovel-meteoriciron": 2800,
+		"shovel-steel": 6000
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"] },
+	fpHandTransform: {
+		translation: { x: 0.046875, y: -0.2, z: 0 },
+		rotation: { x: -15, y: 15, z: 100 },
+		scale: 2
+	},
+	guiTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -113, y: -147, z: 139 },
+		origin: { x: 0.2, y: 0.7, z: 0.8 }
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 3.6
+	},
+	tpHandTransform: {
+		translation: { x: -1.04, y: -0.24, z: -0.61 },
+		rotation: { x: 0, y: 0, z: -10 },
+		scale: 0.8
+	}
+}

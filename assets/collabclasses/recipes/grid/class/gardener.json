@@ -1,0 +1,71 @@
+[
+	{
+		ingredientPattern: "SBR,CF_",
+		requiresTrait: "gardener",
+		ingredients: {
+			"S": { type: "item", code: "game:stick" },
+			"B": { type: "block", code: "game:bowl-fired" },
+			"C": { type: "item", code: "game:cattailtops" },
+			"F": { type: "item", code: "game:fat" },
+			"R": { type: "item", code: "game:rot", quantity: 8 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "gardeningkit", quantity: 12 }
+	},
+	{
+		ingredientPattern: "T,C",
+		requiresTrait: "gardener",
+		ingredients: {
+			"T": { type: "item", code: "gardeningkit" },
+			"C": { type: "item", code: "game:grain-*", quantity: 8, name: "type" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:seeds-{type}", quantity: 1 }
+	},
+	{
+		ingredientPattern: "T,C",
+		requiresTrait: "gardener",
+		ingredients: {
+			"T": { type: "item", code: "gardeningkit" },
+			"C": { type: "item", code: "game:legume-*", quantity: 8, name: "type" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:seeds-{type}", quantity: 1 }
+	},
+	{
+		ingredientPattern: "T,C",
+		requiresTrait: "gardener",
+		ingredients: {
+			"T": { type: "item", code: "gardeningkit" },
+			"C": { type: "item", code: "game:vegetable-*", quantity: 8, name: "type", allowedVariants: ["carrot", "turnip", "onion", "parsnip", "cassava"] }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:seeds-{type}", quantity: 1 }
+	},
+	{
+		ingredientPattern: "T,C",
+		requiresTrait: "gardener",
+		ingredients: {
+			"T": { type: "item", code: "gardeningkit" },
+			"C": { type: "item", code: "game:vegetable-*", quantity: 3, name: "type", allowedVariants: ["cabbage", "pumpkin"] }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:seeds-{type}", quantity: 1 }
+	},
+	{
+		ingredientPattern: "T,C",
+		requiresTrait: "gardener",
+		ingredients: {
+			"T": { type: "item", code: "gardeningkit" },
+			"C": { type: "block", code: "game:pineapple", quantity: 2 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:seeds-pineapple", quantity: 1 }
+	}
+]

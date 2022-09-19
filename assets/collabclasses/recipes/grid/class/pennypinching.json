@@ -1,0 +1,73 @@
+[
+	{
+		ingredientPattern: "H,S",
+		requiresTrait: "pennypinching",
+		ingredients: {
+			"H": { type: "item", code: "chisel-*", isTool: true },
+			"S": { type: "item", code: "game:gear-temporal", quantity: 1 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:gear-rusty", quantity: 8 }
+	},
+	{
+		ingredientPattern: "H,S",
+		requiresTrait: "pennypinching",
+		ingredients: {
+			"H": { type: "item", code: "game:chisel-*", isTool: true },
+			"S": { type: "item", code: "game:gear-temporal", quantity: 1 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:gear-rusty", quantity: 8 }
+	},
+	{
+		ingredientPattern: "S,H",
+		requiresTrait: "pennypinching",
+		ingredients: {
+			"H": { type: "item", code: "chisel-*", isTool: true },
+			"S": { type: "item", code: "game:gear-rusty", quantity: 12 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:gear-temporal", quantity: 1 }
+	},
+	{
+		ingredientPattern: "S,H",
+		requiresTrait: "pennypinching",
+		ingredients: {
+			"H": { type: "item", code: "game:chisel-*", isTool: true },
+			"S": { type: "item", code: "game:gear-rusty", quantity: 12 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:gear-temporal", quantity: 1 }
+	},
+	{
+		ingredientPattern: "S",
+		ingredients: {
+			"S": { type: "item", code: "rustygearbits", quantity: 10 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "item", code: "game:gear-rusty", quantity: 1 }
+	},
+	{
+		ingredientPattern: "S",
+		ingredients: {
+			"S": { type: "item", code: "game:gear-rusty", quantity: 1 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "item", code: "rustygearbits", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S",
+		ingredients: {
+			"S": { type: "item", code: "temporalgearbits", quantity: 4 }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "item", code: "game:gear-temporal", quantity: 1 }
+	},
+]
