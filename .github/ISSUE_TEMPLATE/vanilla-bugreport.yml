@@ -10,7 +10,7 @@ body:
       description: What Game Version where you using?
       placeholder: v1.17.4
     validations:
-      required: true
+      required: false
   - type: dropdown
     id: operating-systems
     attributes:
@@ -21,7 +21,7 @@ body:
         - Mac
         - Linux
     validations:
-      required: true
+      required: false
   - type: dropdown
     id: modded
     attributes:
@@ -31,7 +31,7 @@ body:
         - Modded
         - Vanilla
     validations:
-      required: true
+      required: false
   - type: dropdown
     id: playmode
     attributes:
@@ -41,7 +41,7 @@ body:
         - Singleplayer
         - Multiplayer
     validations:
-      required: true
+      required: false
   - type: textarea
     id: description
     attributes:
