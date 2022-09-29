@@ -47,15 +47,15 @@ body:
     id: description
     attributes:
       label: Description
-      description: If you want to write something more about your structure you can do that here.
-      placeholder: The structure contains leftovers from traders that passed away.
+      description: Explain the issue you're running into.
+      placeholder: Explain it here.
     validations:
       required: false
   - type: textarea
     id: reproduce
     attributes:
       label: How to reproduce
-      description: If you want to write something more about your structure you can do that here.
+      description: Explain how we could reproduce your bug/issue.
       placeholder: 1. Make a '....' 2. Use it on '....' 3. It crashes / doesn't do the thing.
     validations:
       required: false
