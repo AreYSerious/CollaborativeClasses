@@ -1,6 +1,6 @@
 name: Bugreport-vanilla
 description: You can report a vanilla bug or issue here.
-title: " "
+title: "[BUG]: "
 labels: ["bug"]
 
 body:
