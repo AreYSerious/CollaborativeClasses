@@ -8,7 +8,7 @@ body:
     attributes:
       label: Game Version
       description: What Game Version where you using?
-      placeholder: v1.17.4
+      placeholder: v1.17.5
     validations:
       required: false
   - type: dropdown
