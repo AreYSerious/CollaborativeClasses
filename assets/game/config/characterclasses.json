@@ -12,7 +12,7 @@
 	},
 	{
 		code: "malefactor",
-		traits: ["forager", "pilferer", "furtive", "improviser", "frail", "nervous"],
+		traits: ["forager", "pilferer", "furtive", "frail", "nervous"],
 		gear: [
 			{ type: "item", code: "clothes-upperbody-malefactor-shirt" },
 			{ type: "item", code: "clothes-upperbodyover-malefactor-tunic" },
@@ -65,7 +65,7 @@
 	},
 	{
 		code: "hunter",
-		traits: ["archer", "resourceful", "bowyer", "bonewright", "leatherworker", "easilyoverwhelmed", "hungry", "petraphobia"],
+		traits: ["archer", "resourceful", "squeaky", "leatherworker", "easilyoverwhelmed", "hungry", "petraphobia"],
 		gear: [
 			{ type: "item", code: "clothes-head-hunter-cape" },
 			{ type: "item", code: "clothes-shoulder-hunter-poncho" },
@@ -79,7 +79,7 @@
 	},
 	{
 		code: "forester",
-		traits: ["healthy", "charcoaler", "treesurgeon", "improviser", "fearful", "squeamish"],
+		traits: ["healthy", "charcoaler", "treesurgeon", "woodcutter", "fearful", "squeamish"],
 		gear: [
 			{ type: "item", code: "clothes-head-shepherds-cowl" },
 			{ type: "item", code: "clothes-shoulder-embroidered-tartarean-scarf" },
@@ -105,7 +105,7 @@
 	},
 	{
 		code: "labourer",
-		traits: ["hardworker", "tireless", "stonemason", "dyemaker", "knowledgeable", "pennypinching", "civilian", "easypickings"],
+		traits: ["hardworker", "tireless", "civilian", "easypickings"],
 		gear: [
 			{ type: "item", code: "clothes-shoulder-artisans-scarf" },
 			{ type: "item", code: "clothes-upperbody-clockmaker-shirt" },
@@ -117,19 +117,20 @@
 	},
 	{
 		code: "excavator",
-		traits: ["stonesmart", "heavy", "grimy", "gemextractor", "knowledgeable", "halfblind", "sick", "rough"],
+		traits: ["stonesmart", "heavy", "gemextractor", "halfblind", "sick", "rough"],
 		gear: [
-			{ type: "item", code: "clothes-shoulder-clockmaker-apron" },
-			{ type: "item", code: "clothes-upperbody-scarlet-ornate-linen-tunic" },
+			{ type: "item", code: "clothes-shoulder-jord-robe" },
+			{ type: "item", code: "clothes-upperbody-linen-tunic" },
 			{ type: "item", code: "clothes-hand-heavy-leather-gloves" },
-			{ type: "item", code: "clothes-waist-heavy-tool-belt" },
-			{ type: "item", code: "clothes-lowerbody-clockmaker-pants" },
-			{ type: "item", code: "clothes-foot-great-steppe-boots" }
+			{ type: "item", code: "clothes-waist-sturdy-leather-belt" },
+			{ type: "item", code: "clothes-lowerbody-pastoral-pants" },
+			{ type: "item", code: "clothes-arm-prisoner-binds" },
+			{ type: "item", code: "clothes-foot-soldier-boots" }
 		]
 	},
 	{
 		code: "mercenary",
-		traits: ["professional", "looter", "blacksmith", "forger", "profiteer", "pennypinching", "wornout", "oldwounds"],
+		traits: ["professional", "looter", "forger", "wornout", "oldwounds"],
 		gear: [
 			{ type: "item", code: "clothes-head-squire-hood" },
 			{ type: "item", code: "clothes-emblem-squire-emblem" },
